@@ -9,7 +9,7 @@ venv/
 .DS_Store
 
 # Local-only planning files (never push these)
-GROUP_WORK_DIVISION.md
+GROUP_WORK_DIVISION.*
 
 # Notebooks
 .ipynb_checkpoints/

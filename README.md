@@ -23,12 +23,17 @@ social-media-stress-analysis/
 │   ├── raw/
 │   │   ├── social-media-usage-and-stress-rates.csv   # Original, untouched
 │   │   └── README.md                # Source & license details
-│   └── processed/
-│       └── social_media_stress_clean.csv              # Cleaned dataset
+│   ├── processed/
+│   │   └── social_media_stress_clean.csv              # Cleaned dataset
+│   └── data_dictionary.csv          # Column documentation
+├── notebooks/                      # Analysis notebooks
 ├── scripts/
 │   └── preprocess.py               # Reproducible cleaning pipeline
-└── reports/
-    └── data_cleaning_report.md     # Checks, changes, and anomalies
+├── reports/
+│   ├── data_cleaning_report.md     # Checks, changes, and anomalies
+│   ├── part1_data_preparation.md   # Data preparation summary
+│   └── figures/                    # Charts
+└── presentation/                   # Final deck
 ```
 
 ## Data dictionary (cleaned dataset)
@@ -73,12 +78,12 @@ The cleaning pipeline reads `data/raw/`, performs the documented steps, and writ
 - No rows dropped: 500 rows retained (0 missing, 0 duplicates)
 - One anomaly documented: a single `days_without_social_media = 9` value was retained (reference period unspecified) and flagged in the report
 
-## Next steps (analysis ideas)
+## Next steps
 
-- Correlation between screen time and stress / sleep quality
-- Stress and happiness by preferred platform or age group
-- Screen-time group vs. sleep-quality distribution
-- Hypothesis tests (e.g., do heavier users report higher stress?)
+- **Exploratory data analysis:** distributions, scatter plots, group comparisons, correlation heatmap
+- **Statistical analysis:** correlation tests, ANOVA / Kruskal-Wallis, heavy vs light user comparison
+- **Predictive modeling:** predict stress level, feature importance, user segmentation
+- **Final report & presentation:** synthesis of findings and recommendations
 
 ## License
 

@@ -1,0 +1,12 @@
+column,type,description,observed_range_or_values
+user_id,string,Unique respondent identifier (U001-U500),"U001 to U500"
+age,int,Age in years,"16-49"
+gender,categorical,"Gender","Male, Female, Other"
+daily_screen_time_hours,float,Daily screen time in hours,"1.0-10.8"
+sleep_quality,int,Self-rated sleep quality on a 1-10 scale,"2-10"
+stress_level,int,Self-rated stress level on a 1-10 scale,"2-10"
+days_without_social_media,int,"Days without social media (reference period not documented)","0-9"
+exercise_frequency_per_week,int,Exercise sessions per week,"0-7"
+social_media_platform,categorical,Preferred social media platform,"Facebook, Instagram, LinkedIn, TikTok, X (Twitter), YouTube"
+happiness_index,int,Self-rated happiness on a 1-10 scale,"4-10"
+screen_time_group,categorical,Derived screen-time bucket,"0-3 hrs, 3-6 hrs, 6-9 hrs, 9-12 hrs"

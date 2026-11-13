@@ -1,0 +1,4 @@
+Cluster,Users,daily_screen_time_hours,stress_level,sleep_quality,exercise_frequency_per_week,happiness_index,Segment Name
+0,177,5.75,6.74,6.07,2.91,8.4,Middle Screen Time
+1,163,6.99,7.65,5.06,2.02,7.25,Higher Screen Time
+2,160,3.8,5.43,7.82,2.38,9.51,Lower Screen Time

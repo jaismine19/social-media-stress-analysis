@@ -153,22 +153,28 @@ def clean_text_columns(df):
 # ================================================================
 def report_missing_rows(df):
     """
-    Print exactly WHICH rows have missing values and in which
-    columns. Live data is easier to fix when you can point at the
-    exact record, e.g. "U042 is missing its sleep score".
+    Print exactly WHICH rows have missing values and in which columns.
+    The logic is simple: look at every cell, one by one.
     """
     print("\nSTEP 5b - Which rows have missing values?")
-    rows_with_gaps = df[df.isna().any(axis=1)]
-    if rows_with_gaps.empty:
-        print("    No rows have missing values - every cell is filled.")
-        return
 
-    id_col = "user_id" if "user_id" in df.columns else None
-    for idx, row in rows_with_gaps.iterrows():
-        missing_cols = [c for c in df.columns if pd.isna(row[c])]
-        label = row[id_col] if id_col else f"row {idx}"
-        print(f"    {label}: missing in {missing_cols}")
-    print(f"    -> Total rows with gaps: {len(rows_with_gaps)} of {len(df)}")
+    found_any = False
+
+    # Look at every row...
+    for index, row in df.iterrows():
+        # ...and every column inside that row.
+        for col in df.columns:
+            if pd.isna(row[col]):          # is this cell empty?
+                found_any = True
+                # Name the row with its ID if the dataset has one.
+                if "user_id" in df.columns:
+                    label = row["user_id"]
+                else:
+                    label = index
+                print(f"    {label}: missing in '{col}'")
+
+    if not found_any:
+        print("    No rows have missing values - every cell is filled.")
 
 
 # ================================================================

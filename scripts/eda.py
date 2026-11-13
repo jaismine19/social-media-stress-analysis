@@ -93,16 +93,19 @@ def missing_values_heatmap(df):
     total_missing = df.isna().sum().sum()
     print(f"Total missing values in the dataset: {total_missing}")
 
-    # Which exact rows have gaps?
-    rows_with_gaps = df[df.isna().any(axis=1)]
-    if rows_with_gaps.empty:
+    # Which exact rows have gaps? Check every cell, one by one.
+    found_any = False
+    for index, row in df.iterrows():
+        for col in df.columns:
+            if pd.isna(row[col]):          # is this cell empty?
+                found_any = True
+                if "user_id" in df.columns:
+                    label = row["user_id"]
+                else:
+                    label = index
+                print(f"  {label}: missing in '{col}'")
+    if not found_any:
         print("No rows have missing values - every cell is filled.")
-    else:
-        print(f"\nRows with missing values ({len(rows_with_gaps)} found):")
-        for idx, row in rows_with_gaps.iterrows():
-            cols = [c for c in df.columns if pd.isna(row[c])]
-            label = row["user_id"] if "user_id" in df.columns else f"row {idx}"
-            print(f"  {label}: missing in {cols}")
 
     fig, ax = plt.subplots(figsize=(10, 3))
     sns.heatmap(df.isna(), cbar=False, yticklabels=False, ax=ax)

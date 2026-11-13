@@ -1,0 +1,13 @@
+Rank,Feature,Importance
+1,daily_screen_time_hours,0.6937
+2,age,0.0842
+3,days_without_social_media,0.0595
+4,exercise_frequency_per_week,0.0477
+5,sleep_quality,0.0384
+6,social_media_platform = Instagram,0.0141
+7,social_media_platform = X (Twitter),0.0128
+8,gender = Male,0.0125
+9,social_media_platform = LinkedIn,0.0124
+10,social_media_platform = TikTok,0.0119
+11,social_media_platform = YouTube,0.0077
+12,gender = Other,0.0052

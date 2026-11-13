@@ -28,11 +28,14 @@ social-media-stress-analysis/
 │   └── data_dictionary.csv          # Column documentation
 ├── notebooks/                      # Analysis notebooks
 ├── scripts/
-│   └── preprocess.py               # Reproducible cleaning pipeline
+│   ├── preprocess.py               # Cleaning pipeline (easy-to-read, live-data ready)
+│   ├── eda.py                      # Full EDA: distributions, relationships, outliers
+│   ├── decision_tree.py            # Decision tree classification (stress classes)
+│   └── regression.py               # Regression: predict stress score + clustering
 ├── reports/
 │   ├── data_cleaning_report.md     # Checks, changes, and anomalies
 │   ├── part1_data_preparation.md   # Data preparation summary
-│   └── figures/                    # Charts
+│   └── figures/                    # Charts produced by eda.py and the models
 └── presentation/                   # Final deck
 ```
 
@@ -66,13 +69,23 @@ pip install -r requirements.txt
 python3 scripts/preprocess.py
 ```
 
-The cleaning pipeline reads `data/raw/`, performs the documented steps, and writes `data/processed/social_media_stress_clean.csv` plus `reports/data_cleaning_report.md`.
+The cleaning pipeline reads `data/raw/`, performs the documented steps, and writes `data/processed/social_media_stress_clean.csv`.
+
+```bash
+# 4. Run the full analysis suite (each script prints plain-English
+#    explanations of what it does and why)
+python3 scripts/eda.py              # EDA + charts -> reports/figures/
+python3 scripts/decision_tree.py    # decision tree + result tables
+python3 scripts/regression.py       # regression models + clustering
+```
 
 ## Cleaning summary
 
 - Renamed columns to snake_case
 - Trimmed whitespace from string columns
 - Validated user IDs, numeric ranges, and the consistency of `screen_time_group`
+- Missing-value policy (median for numbers, `Unknown` for text) and duplicate removal — applied if needed, as with live data
+- Outlier detection via the IQR rule — reported, not blindly dropped
 - Converted whole-number float columns to integer types
 - Rounded screen time to 1 decimal place
 - No rows dropped: 500 rows retained (0 missing, 0 duplicates)

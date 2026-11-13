@@ -1,0 +1,76 @@
+|--- daily_screen_time_hours <= 5.75
+|   |--- daily_screen_time_hours <= 4.15
+|   |   |--- daily_screen_time_hours <= 2.65
+|   |   |   |--- social_media_platform = LinkedIn <= 0.50
+|   |   |   |   |--- age <= 42.00
+|   |   |   |   |   |--- class: Low
+|   |   |   |   |--- age >  42.00
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- social_media_platform = LinkedIn >  0.50
+|   |   |   |   |--- daily_screen_time_hours <= 1.65
+|   |   |   |   |   |--- class: Low
+|   |   |   |   |--- daily_screen_time_hours >  1.65
+|   |   |   |   |   |--- class: Moderate
+|   |   |--- daily_screen_time_hours >  2.65
+|   |   |   |--- social_media_platform = X (Twitter) <= 0.50
+|   |   |   |   |--- social_media_platform = YouTube <= 0.50
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- social_media_platform = YouTube >  0.50
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |--- social_media_platform = X (Twitter) >  0.50
+|   |   |   |   |--- class: Moderate
+|   |--- daily_screen_time_hours >  4.15
+|   |   |--- exercise_frequency_per_week <= 2.50
+|   |   |   |--- social_media_platform = TikTok <= 0.50
+|   |   |   |   |--- days_without_social_media <= 4.50
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- days_without_social_media >  4.50
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |--- social_media_platform = TikTok >  0.50
+|   |   |   |   |--- daily_screen_time_hours <= 5.15
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- daily_screen_time_hours >  5.15
+|   |   |   |   |   |--- class: Moderate
+|   |   |--- exercise_frequency_per_week >  2.50
+|   |   |   |--- social_media_platform = TikTok <= 0.50
+|   |   |   |   |--- gender = Other <= 0.50
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- gender = Other >  0.50
+|   |   |   |   |   |--- class: High
+|   |   |   |--- social_media_platform = TikTok >  0.50
+|   |   |   |   |--- class: Moderate
+|--- daily_screen_time_hours >  5.75
+|   |--- daily_screen_time_hours <= 7.55
+|   |   |--- days_without_social_media <= 0.50
+|   |   |   |--- exercise_frequency_per_week <= 4.50
+|   |   |   |   |--- age <= 36.00
+|   |   |   |   |   |--- class: High
+|   |   |   |   |--- age >  36.00
+|   |   |   |   |   |--- class: High
+|   |   |   |--- exercise_frequency_per_week >  4.50
+|   |   |   |   |--- class: Moderate
+|   |   |--- days_without_social_media >  0.50
+|   |   |   |--- exercise_frequency_per_week <= 4.50
+|   |   |   |   |--- daily_screen_time_hours <= 6.75
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- daily_screen_time_hours >  6.75
+|   |   |   |   |   |--- class: High
+|   |   |   |--- exercise_frequency_per_week >  4.50
+|   |   |   |   |--- class: High
+|   |--- daily_screen_time_hours >  7.55
+|   |   |--- age <= 29.00
+|   |   |   |--- daily_screen_time_hours <= 8.75
+|   |   |   |   |--- days_without_social_media <= 1.50
+|   |   |   |   |   |--- class: High
+|   |   |   |   |--- days_without_social_media >  1.50
+|   |   |   |   |   |--- class: High
+|   |   |   |--- daily_screen_time_hours >  8.75
+|   |   |   |   |--- class: High
+|   |   |--- age >  29.00
+|   |   |   |--- age <= 41.50
+|   |   |   |   |--- class: High
+|   |   |   |--- age >  41.50
+|   |   |   |   |--- daily_screen_time_hours <= 7.85
+|   |   |   |   |   |--- class: Moderate
+|   |   |   |   |--- daily_screen_time_hours >  7.85
+|   |   |   |   |   |--- class: High

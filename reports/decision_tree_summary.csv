@@ -1,0 +1,4 @@
+Metric,Value
+Test accuracy,0.7267
+Weighted F1,0.7195
+Majority baseline,0.6133

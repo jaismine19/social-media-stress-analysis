@@ -29,8 +29,7 @@ social-media-stress-analysis/
 ├── notebooks/                      # Analysis notebooks
 ├── scripts/
 │   ├── preprocess.py               # Cleaning pipeline (easy-to-read, live-data ready)
-│   ├── eda.py                      # Full EDA in Python: distributions, relationships, outliers
-│   ├── eda.R                       # Full EDA in R (base R + corrplot) — Part 2 deliverable
+│   ├── eda.py                      # Full EDA: distributions, relationships, outliers
 │   ├── decision_tree.py            # Decision tree classification (stress classes)
 │   └── regression.py               # Regression: predict stress score + clustering
 ├── reports/
@@ -78,9 +77,6 @@ The cleaning pipeline reads `data/raw/`, performs the documented steps, and writ
 python3 scripts/eda.py              # EDA + charts -> reports/figures/
 python3 scripts/decision_tree.py    # decision tree + result tables
 python3 scripts/regression.py       # regression models + clustering
-
-# EDA is also available in R (requires R + the corrplot package):
-Rscript scripts/eda.R               # R EDA + charts (r_*.png) -> reports/figures/
 ```
 
 ## Cleaning summary

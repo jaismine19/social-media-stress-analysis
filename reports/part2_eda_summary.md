@@ -1,8 +1,8 @@
 # Part 2 — Exploratory Data Analysis (EDA) Summary
 
-**Tool:** R (base R + corrplot) — script at `scripts/eda.R`
+**Tool:** Python (pandas, matplotlib, seaborn) — script at `scripts/eda.py`
 **Data:** `data/processed/social_media_stress_clean.csv` (500 rows × 11 columns)
-**Charts:** `reports/figures/r_*.png` (17 charts)
+**Charts:** `reports/figures/eda_*.png` (18 charts)
 
 ---
 

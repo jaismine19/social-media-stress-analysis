@@ -82,6 +82,20 @@ missing_counts <- colSums(is.na(df))
 cat("Missing values per column:\n")
 print(missing_counts)
 cat("Total missing values:", sum(missing_counts), "\n")
+
+# Which exact rows have gaps?
+rows_with_gaps <- which(rowSums(is.na(df)) > 0)
+if (length(rows_with_gaps) == 0) {
+  cat("No rows have missing values - every cell is filled.\n")
+} else {
+  cat("\nRows with missing values (", length(rows_with_gaps), " found):\n", sep = "")
+  for (i in rows_with_gaps) {
+    missing_cols <- names(df)[is.na(df[i, ])]
+    row_label <- if ("user_id" %in% names(df)) df[i, "user_id"] else i
+    cat("  ", row_label, ": missing in ",
+        paste(missing_cols, collapse = ", "), "\n", sep = "")
+  }
+}
 if (sum(missing_counts) > 0) {
   # Draw a heatmap: white = present, coloured = missing
   save_chart("r_missing_values.png", function() {

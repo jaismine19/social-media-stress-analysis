@@ -149,6 +149,29 @@ def clean_text_columns(df):
 
 
 # ================================================================
+# STEP 5b - WHICH ROWS have missing values?
+# ================================================================
+def report_missing_rows(df):
+    """
+    Print exactly WHICH rows have missing values and in which
+    columns. Live data is easier to fix when you can point at the
+    exact record, e.g. "U042 is missing its sleep score".
+    """
+    print("\nSTEP 5b - Which rows have missing values?")
+    rows_with_gaps = df[df.isna().any(axis=1)]
+    if rows_with_gaps.empty:
+        print("    No rows have missing values - every cell is filled.")
+        return
+
+    id_col = "user_id" if "user_id" in df.columns else None
+    for idx, row in rows_with_gaps.iterrows():
+        missing_cols = [c for c in df.columns if pd.isna(row[c])]
+        label = row[id_col] if id_col else f"row {idx}"
+        print(f"    {label}: missing in {missing_cols}")
+    print(f"    -> Total rows with gaps: {len(rows_with_gaps)} of {len(df)}")
+
+
+# ================================================================
 # STEP 5 - MISSING VALUES POLICY
 # ================================================================
 def handle_missing_values(df):
@@ -345,6 +368,7 @@ def main():
     profile_data(df)
     df = rename_columns(df)
     df = clean_text_columns(df)
+    report_missing_rows(df)
     df = handle_missing_values(df)
     df = handle_duplicates(df)
     validate_user_ids(df)

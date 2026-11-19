@@ -59,6 +59,26 @@ IQR scan flags only a handful of plausible extremes (screen time 10.8 h ×2, exe
 5. Gender and age barely matter — lifestyle habits carry the signal.
 6. Only 43 users (8.6%) are Low-stress — expect class imbalance in the decision tree.
 
-## 6. What this means for the project
+## Conclusions
 
-The EDA gives Members 3 & 4 a clear hypothesis to model: **screen time is the strongest single predictor of stress**, with sleep quality close behind. The relationships are roughly linear, which suggests even simple models (linear regression, shallow trees) should work well.
+Based on the exploratory analysis alone, we draw six conclusions:
+
+1. **Screen time is the single strongest signal in the dataset.**
+   It shows the two largest associations of any pair of variables: +0.74 with stress and −0.76 with sleep quality. No other variable comes close.
+
+2. **The screen-time → stress relationship is monotonic (a dose–response staircase).**
+   Mean stress rises with every usage group: 4.4 (0-3 hrs) → 6.0 (3-6 hrs) → 7.6 (6-9 hrs) → 9.2 (9-12 hrs). There is no visible threshold where the effect flattens — every extra hour counts.
+
+3. **Sleep looks like the middle link in the chain.**
+   Screen time ↔ sleep (−0.76), sleep ↔ happiness (+0.68) and stress ↔ happiness (−0.74) together suggest a chain: more screen time → worse sleep → more stress → less happiness. This is a testable hypothesis for the modelling parts.
+
+4. **Habits matter; demographics do not.**
+   Age and gender are essentially uncorrelated with stress (|r| ≤ 0.06), and mean stress is nearly identical across genders (6.60 / 6.63 / 6.61). Predictive models should rely on behavioural features, not on who the person is.
+
+5. **Exercise is a candidate protective factor.**
+   Its simple correlation with stress is weak (−0.02), but the pattern of group means hints it matters in combination with heavy screen use — a moderator hypothesis worth testing in the decision tree.
+
+6. **The data is well-behaved for modelling, with one known difficulty.**
+   Relationships are approximately linear (|r| ≈ 0.7), so simple models should be competitive. However, only 43 users (8.6%) are Low-stress — class imbalance that the classifier must handle with weighted metrics.
+
+**Implication for the project:** these conclusions became the design brief for Parts 3 and 4 — feature selection (habits only), the expected winner (screen time), the expected weakness (Low-stress recall), and the modelling strategy (simple models first, complexity only if needed).

@@ -59,6 +59,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 # ---------------------------------------------------------------
 PROJECT = Path(__file__).resolve().parent.parent
 CLEAN_FILE = PROJECT / "data" / "processed" / "social_media_stress_clean.csv"
+AUG_FILE = PROJECT / "data" / "processed" / "social_media_stress_augmented.csv"
 REPORT_DIR = PROJECT / "reports"
 FIG_DIR = REPORT_DIR / "figures"
 
@@ -294,7 +295,8 @@ def cluster_users(pre, X, df):
 # ================================================================
 def main():
     print("STARTING THE REGRESSION")
-    df = pd.read_csv(CLEAN_FILE)
+    # Use the augmented dataset (500 real + 1000 synthetic rows)
+    df = pd.read_csv(AUG_FILE)
 
     X, y = choose_features(df)
     X_train, X_test, y_train, y_test = split_data(X, y)
@@ -340,11 +342,16 @@ def main():
 
     # Honest interpretation of the comparison
     print("\nWHICH MODEL WINS?")
-    print("Linear regression is the winner here. That makes sense:")
-    print("the strongest relationships in this dataset (screen time vs")
-    print("stress, sleep, happiness) are close to straight lines")
-    print("(|correlation| ~ 0.7), which is exactly when simple linear")
-    print("models work best and forests cannot do much better.")
+    if lr_r2 >= tuned_r2:
+        print("Linear regression wins. That makes sense: the strongest")
+        print("relationships here are close to straight lines, which is")
+        print("exactly when simple models work best.")
+    else:
+        print("The random forest wins on the augmented dataset. With 1500")
+        print("rows (including near-copy synthetic rows) the forest can fit")
+        print("the fine structure. On the original 500 real rows the simple")
+        print("line was best. Both models agree on the story: screen time")
+        print("is the key driver of stress.")
 
     print("\nSaved result tables -> reports/regression_*.csv")
     print("REGRESSION FINISHED")

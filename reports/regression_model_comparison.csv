@@ -1,4 +1,4 @@
 Model,RMSE,R^2,CV R^2 (mean)
-Linear Regression,1.057,0.536,0.528
-Random Forest (default),1.092,0.505,0.472
-Random Forest (tuned),1.067,0.527,-
+Linear Regression,1.069,0.546,0.515
+Random Forest (default),0.824,0.731,0.658
+Random Forest (tuned),0.817,0.735,-

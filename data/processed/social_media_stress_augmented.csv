@@ -1,0 +1,1501 @@
+user_id,age,gender,daily_screen_time_hours,sleep_quality,stress_level,days_without_social_media,exercise_frequency_per_week,social_media_platform,happiness_index,screen_time_group
+U001,44,Male,3.1,7,6,2,5,Facebook,10,3-6 hrs
+U002,30,Other,5.1,7,8,5,3,LinkedIn,10,3-6 hrs
+U003,23,Other,7.4,6,7,1,3,YouTube,6,6-9 hrs
+U004,36,Female,5.7,7,8,1,1,TikTok,8,3-6 hrs
+U005,34,Female,7.0,4,7,5,1,X (Twitter),8,6-9 hrs
+U006,38,Male,6.6,5,7,4,3,LinkedIn,8,6-9 hrs
+U007,26,Female,7.8,4,8,2,0,TikTok,7,6-9 hrs
+U008,26,Female,7.4,5,6,1,4,Instagram,7,6-9 hrs
+U009,39,Male,4.7,7,7,6,1,YouTube,9,3-6 hrs
+U010,39,Female,6.6,6,8,0,2,Facebook,7,6-9 hrs
+U011,18,Female,2.8,7,6,2,0,Instagram,7,0-3 hrs
+U012,37,Other,5.4,5,7,3,2,Instagram,9,3-6 hrs
+U013,17,Female,7.0,7,10,7,1,YouTube,8,6-9 hrs
+U014,39,Female,5.7,5,7,4,0,Facebook,8,3-6 hrs
+U015,45,Male,6.3,7,7,4,3,X (Twitter),9,6-9 hrs
+U016,17,Female,5.1,7,6,2,5,LinkedIn,10,3-6 hrs
+U017,36,Female,7.5,5,8,4,4,Facebook,7,6-9 hrs
+U018,48,Male,5.4,6,4,3,4,TikTok,10,3-6 hrs
+U019,27,Male,4.7,6,6,0,2,Instagram,9,3-6 hrs
+U020,37,Male,7.1,6,6,5,4,TikTok,10,6-9 hrs
+U021,40,Female,3.0,8,5,5,4,X (Twitter),10,3-6 hrs
+U022,42,Other,6.4,7,6,5,3,TikTok,10,6-9 hrs
+U023,43,Male,3.6,8,5,3,1,Facebook,9,3-6 hrs
+U024,31,Female,7.8,5,8,1,2,TikTok,7,6-9 hrs
+U025,30,Male,5.0,6,6,0,5,X (Twitter),8,3-6 hrs
+U026,18,Other,5.7,6,7,3,2,X (Twitter),8,3-6 hrs
+U027,22,Female,6.2,5,8,5,0,X (Twitter),6,6-9 hrs
+U028,36,Female,2.0,8,4,5,0,Facebook,10,0-3 hrs
+U029,24,Male,4.3,6,6,5,2,X (Twitter),10,3-6 hrs
+U030,33,Male,7.4,6,10,3,4,Instagram,8,6-9 hrs
+U031,19,Male,7.1,5,8,5,2,X (Twitter),9,6-9 hrs
+U032,40,Male,6.0,6,7,5,4,TikTok,7,6-9 hrs
+U033,29,Female,3.1,8,4,2,2,LinkedIn,10,3-6 hrs
+U034,24,Female,6.6,6,7,4,0,TikTok,7,6-9 hrs
+U035,41,Other,6.8,8,7,2,2,LinkedIn,9,6-9 hrs
+U036,17,Other,5.6,6,7,4,3,TikTok,7,3-6 hrs
+U037,35,Female,7.7,4,8,0,3,Facebook,8,6-9 hrs
+U038,43,Female,4.3,8,4,1,1,TikTok,10,3-6 hrs
+U039,22,Other,4.6,4,6,5,2,Facebook,9,3-6 hrs
+U040,23,Female,1.0,9,5,5,7,Facebook,10,0-3 hrs
+U041,29,Male,7.2,5,7,4,1,X (Twitter),10,6-9 hrs
+U042,32,Male,6.1,5,6,3,3,Instagram,7,6-9 hrs
+U043,19,Male,2.5,9,3,0,0,LinkedIn,10,0-3 hrs
+U044,17,Other,2.3,9,3,3,4,X (Twitter),10,0-3 hrs
+U045,21,Female,3.9,6,6,4,1,X (Twitter),8,3-6 hrs
+U046,19,Male,6.9,5,7,2,3,Facebook,9,6-9 hrs
+U047,44,Female,5.0,4,7,2,1,Facebook,8,3-6 hrs
+U048,33,Female,4.1,8,7,6,3,LinkedIn,9,3-6 hrs
+U049,41,Male,3.7,8,6,3,1,TikTok,9,3-6 hrs
+U050,49,Male,3.6,7,5,4,1,TikTok,9,3-6 hrs
+U051,25,Female,2.0,9,4,5,3,X (Twitter),10,0-3 hrs
+U052,29,Female,3.3,7,5,1,2,YouTube,10,3-6 hrs
+U053,46,Female,3.6,7,5,3,3,YouTube,10,3-6 hrs
+U054,30,Female,6.7,6,8,6,2,TikTok,7,6-9 hrs
+U055,23,Female,5.2,6,6,7,3,YouTube,8,3-6 hrs
+U056,29,Female,4.0,7,3,3,3,TikTok,10,3-6 hrs
+U057,38,Female,9.7,3,9,3,2,Facebook,4,9-12 hrs
+U058,36,Female,4.3,7,6,4,1,X (Twitter),9,3-6 hrs
+U059,31,Male,7.6,5,10,3,2,Instagram,6,6-9 hrs
+U060,33,Male,8.4,4,8,6,4,X (Twitter),7,6-9 hrs
+U061,39,Male,2.7,9,5,1,3,TikTok,10,0-3 hrs
+U062,41,Female,5.6,6,7,2,1,TikTok,9,3-6 hrs
+U063,40,Female,4.6,7,7,1,3,X (Twitter),10,3-6 hrs
+U064,44,Female,4.4,6,7,1,3,LinkedIn,9,3-6 hrs
+U065,30,Male,6.5,4,9,4,3,TikTok,5,6-9 hrs
+U066,16,Male,4.4,8,4,5,1,YouTube,10,3-6 hrs
+U067,40,Male,4.6,7,6,2,1,YouTube,10,3-6 hrs
+U068,22,Male,5.2,9,7,5,1,TikTok,10,3-6 hrs
+U069,24,Female,4.8,6,7,5,2,TikTok,7,3-6 hrs
+U070,39,Male,3.4,8,6,7,3,LinkedIn,10,3-6 hrs
+U071,16,Male,6.9,5,8,3,3,YouTube,5,6-9 hrs
+U072,23,Female,7.4,6,7,2,3,TikTok,8,6-9 hrs
+U073,39,Male,6.1,5,5,1,5,TikTok,10,6-9 hrs
+U074,26,Female,4.8,6,6,1,4,LinkedIn,8,3-6 hrs
+U075,32,Female,4.2,8,8,5,2,LinkedIn,8,3-6 hrs
+U076,23,Male,4.2,7,5,0,1,X (Twitter),10,3-6 hrs
+U077,48,Female,9.7,4,8,5,1,LinkedIn,5,9-12 hrs
+U078,20,Female,7.2,6,9,1,2,Instagram,6,6-9 hrs
+U079,43,Other,4.0,7,7,2,4,YouTube,9,3-6 hrs
+U080,22,Male,5.8,6,8,3,2,X (Twitter),7,3-6 hrs
+U081,24,Female,4.8,6,7,2,2,Instagram,8,3-6 hrs
+U082,23,Female,6.6,6,8,5,1,TikTok,8,6-9 hrs
+U083,27,Male,6.5,7,9,7,2,TikTok,8,6-9 hrs
+U084,49,Male,7.5,4,7,2,4,X (Twitter),8,6-9 hrs
+U085,48,Other,4.0,7,5,2,5,LinkedIn,10,3-6 hrs
+U086,38,Female,5.7,5,6,3,2,TikTok,9,3-6 hrs
+U087,39,Male,2.4,7,4,4,2,Facebook,10,0-3 hrs
+U088,37,Female,3.2,8,7,3,1,X (Twitter),10,3-6 hrs
+U089,42,Male,7.1,3,8,6,5,Instagram,6,6-9 hrs
+U090,16,Male,3.8,10,6,5,0,X (Twitter),10,3-6 hrs
+U091,29,Male,4.0,6,4,1,4,YouTube,9,3-6 hrs
+U092,18,Male,5.5,6,6,4,2,LinkedIn,9,3-6 hrs
+U093,16,Male,6.8,7,6,6,2,LinkedIn,9,6-9 hrs
+U094,20,Male,3.6,7,7,2,1,X (Twitter),8,3-6 hrs
+U095,41,Female,1.0,7,5,2,6,TikTok,10,0-3 hrs
+U096,29,Male,3.9,7,6,2,3,TikTok,10,3-6 hrs
+U097,42,Male,7.7,4,7,2,3,Facebook,8,6-9 hrs
+U098,24,Female,6.1,4,9,0,4,Facebook,6,6-9 hrs
+U099,30,Female,7.9,5,8,0,2,LinkedIn,8,6-9 hrs
+U100,30,Female,3.5,8,4,3,3,Facebook,10,3-6 hrs
+U101,41,Male,2.5,9,4,6,3,Instagram,10,0-3 hrs
+U102,28,Male,6.3,5,7,2,2,Facebook,7,6-9 hrs
+U103,47,Male,5.9,4,7,2,4,Instagram,7,3-6 hrs
+U104,47,Male,6.0,6,7,6,2,Facebook,9,6-9 hrs
+U105,19,Male,7.2,5,6,1,0,LinkedIn,9,6-9 hrs
+U106,45,Male,6.3,7,8,0,2,LinkedIn,6,6-9 hrs
+U107,38,Male,6.2,7,7,1,3,Instagram,9,6-9 hrs
+U108,30,Male,6.8,7,7,2,1,X (Twitter),10,6-9 hrs
+U109,44,Male,6.4,6,8,0,1,LinkedIn,7,6-9 hrs
+U110,28,Male,7.0,6,6,3,2,X (Twitter),8,6-9 hrs
+U111,47,Male,7.3,4,6,5,4,TikTok,8,6-9 hrs
+U112,22,Female,8.3,5,10,0,2,Instagram,6,6-9 hrs
+U113,37,Female,4.3,6,8,3,5,LinkedIn,9,3-6 hrs
+U114,43,Male,6.4,6,7,4,2,YouTube,7,6-9 hrs
+U115,17,Female,4.8,7,6,3,3,TikTok,10,3-6 hrs
+U116,21,Female,4.0,9,5,3,2,X (Twitter),10,3-6 hrs
+U117,43,Male,4.3,7,6,3,4,LinkedIn,9,3-6 hrs
+U118,43,Female,6.4,6,7,1,1,Instagram,9,6-9 hrs
+U119,35,Female,6.3,6,7,6,4,Facebook,9,6-9 hrs
+U120,45,Male,6.2,5,8,5,3,YouTube,8,6-9 hrs
+U121,26,Male,5.1,6,5,5,2,X (Twitter),9,3-6 hrs
+U122,43,Female,5.5,8,6,5,2,TikTok,10,3-6 hrs
+U123,40,Female,7.0,4,6,0,5,Instagram,8,6-9 hrs
+U124,48,Male,2.8,7,5,5,3,YouTube,10,0-3 hrs
+U125,16,Male,5.5,7,7,4,1,Instagram,9,3-6 hrs
+U126,42,Male,5.7,7,7,0,1,LinkedIn,9,3-6 hrs
+U127,28,Female,6.9,5,8,3,3,Facebook,8,6-9 hrs
+U128,18,Female,3.1,7,6,4,3,TikTok,9,3-6 hrs
+U129,21,Male,8.2,5,7,6,4,Instagram,7,6-9 hrs
+U130,23,Male,5.9,5,5,4,0,X (Twitter),9,3-6 hrs
+U131,42,Female,6.0,5,8,1,1,LinkedIn,7,6-9 hrs
+U132,24,Male,4.8,8,4,6,4,LinkedIn,10,3-6 hrs
+U133,48,Male,6.5,6,8,3,3,TikTok,8,6-9 hrs
+U134,39,Female,5.6,8,6,2,3,LinkedIn,9,3-6 hrs
+U135,30,Female,7.7,4,10,2,1,X (Twitter),8,6-9 hrs
+U136,47,Female,2.9,8,5,0,1,Instagram,10,0-3 hrs
+U137,47,Female,5.8,6,7,3,4,TikTok,10,3-6 hrs
+U138,39,Male,6.2,5,8,4,4,LinkedIn,7,6-9 hrs
+U139,27,Male,5.2,7,5,2,1,LinkedIn,10,3-6 hrs
+U140,17,Female,4.8,8,5,4,1,X (Twitter),10,3-6 hrs
+U141,18,Male,4.8,6,5,1,2,Facebook,10,3-6 hrs
+U142,32,Male,5.8,6,6,3,1,Facebook,10,3-6 hrs
+U143,17,Male,2.2,10,5,4,1,LinkedIn,10,0-3 hrs
+U144,17,Male,7.2,7,8,3,1,Instagram,8,6-9 hrs
+U145,43,Male,4.6,8,7,0,2,TikTok,9,3-6 hrs
+U146,38,Male,5.7,7,5,2,1,LinkedIn,10,3-6 hrs
+U147,47,Male,6.2,5,7,6,1,YouTube,9,6-9 hrs
+U148,48,Male,4.6,7,5,2,3,TikTok,10,3-6 hrs
+U149,16,Female,5.3,7,6,3,2,Facebook,10,3-6 hrs
+U150,34,Female,1.8,9,7,3,3,LinkedIn,10,0-3 hrs
+U151,17,Female,6.8,5,8,6,0,X (Twitter),6,6-9 hrs
+U152,41,Female,7.4,4,9,6,3,YouTube,5,6-9 hrs
+U153,47,Female,2.4,7,7,5,6,LinkedIn,9,0-3 hrs
+U154,21,Male,4.8,5,7,1,2,Instagram,8,3-6 hrs
+U155,47,Female,3.3,8,5,4,4,YouTube,10,3-6 hrs
+U156,19,Female,5.2,7,5,4,4,LinkedIn,10,3-6 hrs
+U157,26,Female,6.7,5,7,2,4,Instagram,8,6-9 hrs
+U158,32,Male,7.3,5,7,1,3,YouTube,8,6-9 hrs
+U159,39,Male,7.5,5,6,6,3,Instagram,7,6-9 hrs
+U160,20,Male,7.9,5,9,2,4,Instagram,5,6-9 hrs
+U161,49,Male,5.1,5,7,6,3,YouTube,8,3-6 hrs
+U162,21,Female,3.4,9,7,5,1,YouTube,8,3-6 hrs
+U163,37,Female,5.3,7,6,4,0,Instagram,10,3-6 hrs
+U164,26,Male,6.6,6,8,4,0,Facebook,8,6-9 hrs
+U165,31,Other,3.3,9,5,0,2,YouTube,10,3-6 hrs
+U166,48,Female,8.5,4,10,3,3,LinkedIn,8,6-9 hrs
+U167,24,Male,7.1,6,8,6,1,TikTok,7,6-9 hrs
+U168,21,Male,5.1,6,5,4,4,X (Twitter),10,3-6 hrs
+U169,31,Male,4.2,8,6,3,2,Instagram,10,3-6 hrs
+U170,44,Male,4.3,8,6,6,2,Instagram,10,3-6 hrs
+U171,18,Male,5.6,5,7,3,1,X (Twitter),6,3-6 hrs
+U172,35,Male,5.1,7,7,2,0,Facebook,7,3-6 hrs
+U173,34,Male,7.2,6,6,3,3,X (Twitter),8,6-9 hrs
+U174,41,Male,4.9,7,5,5,5,YouTube,10,3-6 hrs
+U175,18,Female,6.4,6,8,0,2,X (Twitter),8,6-9 hrs
+U176,34,Male,5.4,6,6,4,0,Instagram,10,3-6 hrs
+U177,35,Female,6.0,7,7,5,4,X (Twitter),8,6-9 hrs
+U178,47,Male,5.1,7,4,2,0,TikTok,9,3-6 hrs
+U179,22,Other,6.8,5,10,5,1,LinkedIn,7,6-9 hrs
+U180,48,Male,6.8,4,7,4,2,YouTube,7,6-9 hrs
+U181,33,Male,6.3,6,8,7,3,X (Twitter),6,6-9 hrs
+U182,16,Other,6.6,6,7,1,1,Instagram,8,6-9 hrs
+U183,26,Female,3.8,10,6,5,2,LinkedIn,10,3-6 hrs
+U184,43,Female,6.1,7,9,1,4,YouTube,7,6-9 hrs
+U185,40,Male,7.7,3,9,0,4,Instagram,5,6-9 hrs
+U186,38,Male,6.4,6,7,0,4,Facebook,8,6-9 hrs
+U187,46,Female,3.6,9,5,4,5,TikTok,10,3-6 hrs
+U188,45,Female,5.4,7,8,3,4,Facebook,7,3-6 hrs
+U189,22,Female,6.2,6,9,2,2,TikTok,6,6-9 hrs
+U190,31,Female,4.1,8,6,0,4,X (Twitter),10,3-6 hrs
+U191,41,Male,3.1,7,7,2,3,YouTube,9,3-6 hrs
+U192,17,Female,4.9,7,6,3,3,X (Twitter),10,3-6 hrs
+U193,16,Male,4.2,7,7,5,3,TikTok,8,3-6 hrs
+U194,27,Male,5.5,6,8,3,1,TikTok,7,3-6 hrs
+U195,20,Male,2.6,9,4,4,1,TikTok,10,0-3 hrs
+U196,47,Female,6.5,5,7,2,2,LinkedIn,8,6-9 hrs
+U197,24,Male,4.4,8,7,6,3,Instagram,10,3-6 hrs
+U198,34,Male,7.3,5,7,1,1,YouTube,6,6-9 hrs
+U199,31,Female,5.0,7,5,2,3,X (Twitter),10,3-6 hrs
+U200,18,Male,5.5,5,6,2,6,X (Twitter),9,3-6 hrs
+U201,35,Female,5.2,7,6,4,0,Facebook,10,3-6 hrs
+U202,39,Male,4.3,9,7,1,3,TikTok,9,3-6 hrs
+U203,48,Female,10.0,3,10,3,2,TikTok,4,9-12 hrs
+U204,39,Female,4.6,6,7,3,3,TikTok,6,3-6 hrs
+U205,26,Male,7.3,5,8,2,2,X (Twitter),7,6-9 hrs
+U206,23,Male,3.5,9,5,4,2,Facebook,10,3-6 hrs
+U207,35,Male,6.2,4,8,1,3,Instagram,7,6-9 hrs
+U208,40,Male,6.4,5,8,1,2,LinkedIn,7,6-9 hrs
+U209,40,Other,5.5,6,7,3,0,YouTube,9,3-6 hrs
+U210,44,Male,4.5,6,6,0,2,Instagram,9,3-6 hrs
+U211,33,Female,5.0,6,6,0,0,X (Twitter),8,3-6 hrs
+U212,33,Male,4.8,5,6,4,3,LinkedIn,9,3-6 hrs
+U213,17,Female,9.8,4,9,5,0,LinkedIn,6,9-12 hrs
+U214,31,Female,5.5,7,7,2,4,LinkedIn,9,3-6 hrs
+U215,48,Female,6.4,4,6,2,3,TikTok,7,6-9 hrs
+U216,19,Female,8.7,6,7,5,3,YouTube,10,6-9 hrs
+U217,48,Male,3.9,9,5,1,0,X (Twitter),10,3-6 hrs
+U218,29,Male,5.6,6,6,0,2,X (Twitter),8,3-6 hrs
+U219,36,Female,5.0,8,6,4,4,LinkedIn,10,3-6 hrs
+U220,35,Female,5.3,6,6,3,2,X (Twitter),9,3-6 hrs
+U221,23,Other,5.2,7,6,5,1,YouTube,9,3-6 hrs
+U222,22,Male,4.2,6,6,0,2,YouTube,8,3-6 hrs
+U223,18,Female,5.9,8,6,0,2,Facebook,8,3-6 hrs
+U224,32,Female,3.6,7,5,3,1,Facebook,10,3-6 hrs
+U225,48,Male,7.3,5,9,4,4,Instagram,5,6-9 hrs
+U226,27,Male,6.6,5,7,5,2,YouTube,7,6-9 hrs
+U227,37,Female,4.6,9,6,3,2,YouTube,8,3-6 hrs
+U228,37,Female,4.7,9,6,3,1,YouTube,10,3-6 hrs
+U229,45,Female,6.0,8,7,2,3,Facebook,9,6-9 hrs
+U230,23,Male,4.1,8,5,6,3,LinkedIn,10,3-6 hrs
+U231,42,Female,8.8,4,8,1,1,LinkedIn,6,6-9 hrs
+U232,42,Male,6.1,7,6,4,0,X (Twitter),8,6-9 hrs
+U233,49,Male,6.2,6,8,1,3,LinkedIn,8,6-9 hrs
+U234,36,Male,6.7,7,7,4,2,TikTok,8,6-9 hrs
+U235,45,Female,4.5,8,6,1,3,Facebook,10,3-6 hrs
+U236,48,Female,7.5,4,9,4,5,YouTube,5,6-9 hrs
+U237,43,Female,5.7,7,7,3,2,LinkedIn,9,3-6 hrs
+U238,48,Male,7.2,6,8,6,2,Facebook,9,6-9 hrs
+U239,20,Female,5.1,4,5,2,1,LinkedIn,9,3-6 hrs
+U240,34,Male,7.9,6,8,4,2,Instagram,7,6-9 hrs
+U241,19,Female,6.2,5,7,1,3,YouTube,8,6-9 hrs
+U242,32,Male,9.4,3,9,2,3,Instagram,5,9-12 hrs
+U243,43,Male,4.8,6,5,3,5,YouTube,10,3-6 hrs
+U244,45,Male,5.9,6,8,0,3,Facebook,7,3-6 hrs
+U245,44,Male,3.6,8,5,0,2,X (Twitter),10,3-6 hrs
+U246,21,Female,4.5,6,6,4,1,LinkedIn,9,3-6 hrs
+U247,39,Female,6.6,6,7,3,3,LinkedIn,7,6-9 hrs
+U248,44,Male,7.5,6,9,2,1,TikTok,6,6-9 hrs
+U249,46,Female,10.8,5,10,2,3,Instagram,4,9-12 hrs
+U250,48,Male,5.3,5,5,2,3,LinkedIn,8,3-6 hrs
+U251,36,Female,3.8,7,5,3,2,Facebook,9,3-6 hrs
+U252,47,Female,6.9,6,8,4,2,X (Twitter),8,6-9 hrs
+U253,38,Female,3.5,9,4,0,0,Facebook,10,3-6 hrs
+U254,48,Male,6.5,5,8,6,4,Instagram,8,6-9 hrs
+U255,18,Female,4.6,8,7,6,3,TikTok,9,3-6 hrs
+U256,33,Female,5.9,4,7,0,3,LinkedIn,5,3-6 hrs
+U257,40,Male,7.5,4,8,5,0,Facebook,7,6-9 hrs
+U258,46,Male,5.3,7,8,5,5,YouTube,9,3-6 hrs
+U259,18,Female,7.2,4,7,3,2,X (Twitter),6,6-9 hrs
+U260,39,Female,7.1,4,8,0,2,Facebook,7,6-9 hrs
+U261,47,Female,2.1,8,4,5,1,X (Twitter),10,0-3 hrs
+U262,37,Female,3.9,8,6,3,0,LinkedIn,10,3-6 hrs
+U263,38,Female,2.7,6,3,4,4,YouTube,10,0-3 hrs
+U264,17,Male,9.1,4,9,7,4,TikTok,4,9-12 hrs
+U265,42,Male,5.3,7,7,4,2,TikTok,8,3-6 hrs
+U266,17,Male,8.7,4,8,1,1,YouTube,7,6-9 hrs
+U267,41,Female,2.6,8,4,2,2,X (Twitter),10,0-3 hrs
+U268,32,Male,4.5,7,6,1,2,LinkedIn,8,3-6 hrs
+U269,48,Female,6.9,5,9,4,1,Facebook,6,6-9 hrs
+U270,24,Female,5.8,8,6,1,2,YouTube,10,3-6 hrs
+U271,44,Female,6.5,5,6,2,3,Instagram,8,6-9 hrs
+U272,41,Male,3.2,8,6,0,4,X (Twitter),10,3-6 hrs
+U273,40,Female,8.0,5,8,3,3,TikTok,6,6-9 hrs
+U274,39,Male,6.9,5,7,3,0,YouTube,9,6-9 hrs
+U275,28,Female,6.2,3,8,0,3,TikTok,5,6-9 hrs
+U276,22,Male,4.3,7,5,4,2,X (Twitter),10,3-6 hrs
+U277,35,Male,6.1,7,8,3,5,TikTok,9,6-9 hrs
+U278,16,Female,5.0,7,6,1,5,YouTube,10,3-6 hrs
+U279,23,Male,2.5,9,5,7,5,X (Twitter),10,0-3 hrs
+U280,31,Male,5.4,5,8,5,2,Instagram,7,3-6 hrs
+U281,29,Female,5.2,7,6,1,5,YouTube,10,3-6 hrs
+U282,27,Female,7.4,4,9,5,3,Facebook,5,6-9 hrs
+U283,38,Female,1.5,9,4,5,5,LinkedIn,10,0-3 hrs
+U284,30,Female,5.9,6,9,3,2,YouTube,7,3-6 hrs
+U285,43,Female,3.4,7,7,4,2,X (Twitter),10,3-6 hrs
+U286,49,Male,6.1,5,6,4,3,LinkedIn,9,6-9 hrs
+U287,17,Male,6.2,6,8,0,3,YouTube,7,6-9 hrs
+U288,47,Male,5.3,6,6,3,4,Instagram,9,3-6 hrs
+U289,38,Female,7.0,4,8,3,2,Instagram,6,6-9 hrs
+U290,37,Female,3.3,7,5,6,4,Facebook,9,3-6 hrs
+U291,40,Male,7.5,5,7,4,4,TikTok,9,6-9 hrs
+U292,37,Male,4.2,9,7,2,2,LinkedIn,8,3-6 hrs
+U293,37,Other,2.7,8,5,3,3,X (Twitter),10,0-3 hrs
+U294,21,Male,5.0,7,6,5,2,X (Twitter),10,3-6 hrs
+U295,30,Female,1.7,9,4,3,6,TikTok,10,0-3 hrs
+U296,48,Female,6.0,5,7,2,0,Instagram,7,6-9 hrs
+U297,23,Female,5.0,5,7,2,4,Instagram,8,3-6 hrs
+U298,20,Male,7.7,4,8,5,0,YouTube,5,6-9 hrs
+U299,19,Female,6.7,6,5,4,2,Facebook,9,6-9 hrs
+U300,21,Female,3.0,8,5,3,2,LinkedIn,10,3-6 hrs
+U301,47,Female,4.0,8,4,3,5,Facebook,10,3-6 hrs
+U302,45,Female,6.4,6,7,2,1,Facebook,7,6-9 hrs
+U303,31,Female,7.0,5,6,3,4,YouTube,8,6-9 hrs
+U304,28,Female,7.7,4,7,2,1,Facebook,7,6-9 hrs
+U305,45,Male,7.7,6,9,2,5,TikTok,6,6-9 hrs
+U306,34,Female,5.3,6,6,6,2,YouTube,10,3-6 hrs
+U307,32,Female,6.2,5,7,1,3,TikTok,7,6-9 hrs
+U308,34,Male,7.8,5,9,2,2,YouTube,6,6-9 hrs
+U309,43,Female,5.0,5,6,0,4,Facebook,8,3-6 hrs
+U310,41,Female,6.2,8,9,0,4,TikTok,7,6-9 hrs
+U311,41,Female,4.9,7,6,3,3,TikTok,9,3-6 hrs
+U312,38,Male,4.5,7,6,2,1,TikTok,9,3-6 hrs
+U313,24,Male,5.6,5,8,7,1,YouTube,7,3-6 hrs
+U314,27,Other,4.3,7,7,2,1,X (Twitter),8,3-6 hrs
+U315,16,Female,5.3,6,6,6,0,Facebook,9,3-6 hrs
+U316,16,Male,3.6,7,5,5,4,TikTok,10,3-6 hrs
+U317,49,Female,5.2,7,8,3,2,LinkedIn,8,3-6 hrs
+U318,47,Female,6.3,5,8,7,2,X (Twitter),8,6-9 hrs
+U319,40,Female,4.4,8,7,4,5,LinkedIn,8,3-6 hrs
+U320,16,Female,5.5,9,5,6,2,Facebook,10,3-6 hrs
+U321,31,Male,5.8,6,8,6,1,Facebook,7,3-6 hrs
+U322,20,Male,6.3,6,6,4,2,TikTok,8,6-9 hrs
+U323,37,Male,5.3,7,7,5,1,TikTok,8,3-6 hrs
+U324,44,Female,7.5,7,8,4,3,YouTube,9,6-9 hrs
+U325,18,Male,1.7,9,3,1,2,X (Twitter),10,0-3 hrs
+U326,27,Male,10.8,2,9,3,2,X (Twitter),5,9-12 hrs
+U327,41,Male,3.9,6,4,5,2,TikTok,9,3-6 hrs
+U328,31,Female,6.2,6,7,6,2,Facebook,8,6-9 hrs
+U329,37,Female,3.8,7,4,2,3,TikTok,10,3-6 hrs
+U330,44,Male,6.7,8,6,4,2,Facebook,10,6-9 hrs
+U331,29,Male,6.0,8,7,3,2,Facebook,7,6-9 hrs
+U332,43,Female,4.3,6,3,3,2,TikTok,10,3-6 hrs
+U333,20,Male,7.4,4,9,4,2,Instagram,6,6-9 hrs
+U334,45,Male,5.2,7,4,3,3,X (Twitter),10,3-6 hrs
+U335,20,Male,6.5,7,7,4,1,LinkedIn,7,6-9 hrs
+U336,27,Male,3.8,8,6,6,4,Facebook,10,3-6 hrs
+U337,31,Male,5.4,6,7,5,3,Facebook,8,3-6 hrs
+U338,41,Female,9.1,4,9,4,2,Instagram,7,9-12 hrs
+U339,41,Male,7.2,5,10,7,3,LinkedIn,7,6-9 hrs
+U340,36,Female,6.1,7,7,5,2,YouTube,9,6-9 hrs
+U341,48,Male,4.7,6,7,3,0,Instagram,8,3-6 hrs
+U342,45,Female,5.6,6,6,1,3,LinkedIn,7,3-6 hrs
+U343,38,Female,5.9,7,7,1,1,Instagram,8,3-6 hrs
+U344,25,Male,6.3,5,9,5,4,Facebook,8,6-9 hrs
+U345,20,Female,3.6,6,5,2,2,X (Twitter),10,3-6 hrs
+U346,49,Male,6.7,6,8,1,4,Instagram,8,6-9 hrs
+U347,46,Other,3.5,7,6,1,2,YouTube,10,3-6 hrs
+U348,25,Male,8.4,5,8,2,3,TikTok,8,6-9 hrs
+U349,34,Male,4.1,8,4,5,4,LinkedIn,10,3-6 hrs
+U350,47,Male,6.0,6,7,3,2,Instagram,8,6-9 hrs
+U351,16,Other,7.3,5,9,0,2,Instagram,8,6-9 hrs
+U352,20,Female,5.0,6,5,3,3,YouTube,9,3-6 hrs
+U353,19,Female,6.1,6,8,3,3,X (Twitter),9,6-9 hrs
+U354,31,Male,8.1,5,9,2,2,Instagram,6,6-9 hrs
+U355,39,Female,6.5,5,5,5,0,Instagram,10,6-9 hrs
+U356,31,Male,6.1,6,6,2,2,X (Twitter),8,6-9 hrs
+U357,17,Female,2.5,9,4,5,4,YouTube,10,0-3 hrs
+U358,43,Male,3.8,8,5,4,1,LinkedIn,10,3-6 hrs
+U359,47,Male,7.4,6,7,5,2,LinkedIn,7,6-9 hrs
+U360,42,Male,6.5,5,7,1,2,Instagram,8,6-9 hrs
+U361,35,Female,6.8,4,9,3,0,X (Twitter),7,6-9 hrs
+U362,39,Female,6.6,6,7,3,1,Instagram,7,6-9 hrs
+U363,27,Male,7.8,5,8,0,4,TikTok,6,6-9 hrs
+U364,48,Female,5.0,8,6,5,0,LinkedIn,10,3-6 hrs
+U365,48,Male,5.7,7,7,1,3,Facebook,9,3-6 hrs
+U366,27,Female,3.6,8,5,2,1,TikTok,10,3-6 hrs
+U367,18,Male,3.2,9,5,1,3,Instagram,10,3-6 hrs
+U368,16,Male,2.5,8,4,4,4,YouTube,10,0-3 hrs
+U369,48,Female,3.9,6,5,0,2,LinkedIn,10,3-6 hrs
+U370,25,Male,8.3,5,8,4,2,Facebook,7,6-9 hrs
+U371,44,Male,2.7,9,5,5,1,TikTok,10,0-3 hrs
+U372,28,Female,5.0,7,5,4,0,LinkedIn,9,3-6 hrs
+U373,27,Other,3.2,9,6,4,5,X (Twitter),10,3-6 hrs
+U374,46,Male,4.4,7,7,5,1,YouTube,8,3-6 hrs
+U375,17,Male,5.8,6,7,1,5,TikTok,9,3-6 hrs
+U376,38,Female,4.2,8,5,6,1,X (Twitter),10,3-6 hrs
+U377,32,Male,7.5,4,7,2,3,Instagram,6,6-9 hrs
+U378,41,Male,8.3,4,10,3,1,X (Twitter),6,6-9 hrs
+U379,23,Male,1.5,9,3,2,3,TikTok,10,0-3 hrs
+U380,44,Female,4.3,8,7,4,2,TikTok,10,3-6 hrs
+U381,41,Female,5.6,6,7,2,2,Instagram,9,3-6 hrs
+U382,25,Male,7.5,4,8,3,3,X (Twitter),7,6-9 hrs
+U383,41,Male,4.7,6,6,1,2,X (Twitter),9,3-6 hrs
+U384,49,Male,5.5,7,5,5,0,Instagram,10,3-6 hrs
+U385,22,Female,3.4,8,6,4,4,X (Twitter),10,3-6 hrs
+U386,19,Male,2.7,8,5,2,1,LinkedIn,9,0-3 hrs
+U387,26,Male,8.1,5,7,2,3,Instagram,7,6-9 hrs
+U388,44,Female,2.2,9,4,4,4,YouTube,10,0-3 hrs
+U389,40,Male,9.7,4,10,2,2,TikTok,6,9-12 hrs
+U390,36,Female,6.8,5,8,3,4,YouTube,8,6-9 hrs
+U391,25,Male,6.7,7,7,5,3,LinkedIn,8,6-9 hrs
+U392,24,Male,6.5,7,6,1,1,LinkedIn,7,6-9 hrs
+U393,39,Male,5.0,5,6,4,5,Facebook,8,3-6 hrs
+U394,33,Female,6.2,6,7,4,1,Facebook,9,6-9 hrs
+U395,47,Female,5.2,7,7,3,2,Facebook,9,3-6 hrs
+U396,39,Female,6.5,5,7,2,2,Instagram,8,6-9 hrs
+U397,38,Male,5.4,8,9,5,3,X (Twitter),8,3-6 hrs
+U398,47,Female,3.8,8,4,2,4,LinkedIn,10,3-6 hrs
+U399,27,Male,3.9,7,5,0,4,YouTube,10,3-6 hrs
+U400,28,Male,3.7,8,5,4,3,YouTube,10,3-6 hrs
+U401,38,Female,7.2,5,8,1,2,YouTube,9,6-9 hrs
+U402,40,Male,4.4,7,5,4,0,YouTube,10,3-6 hrs
+U403,45,Male,2.1,10,5,6,1,Facebook,10,0-3 hrs
+U404,32,Male,6.2,6,8,4,5,YouTube,7,6-9 hrs
+U405,35,Male,8.2,4,9,5,0,X (Twitter),6,6-9 hrs
+U406,40,Male,6.9,3,8,7,1,Facebook,6,6-9 hrs
+U407,37,Female,4.4,7,6,5,4,YouTube,10,3-6 hrs
+U408,28,Male,2.6,10,3,4,3,Instagram,10,0-3 hrs
+U409,34,Female,5.3,6,6,6,4,TikTok,8,3-6 hrs
+U410,27,Female,5.2,4,7,7,3,TikTok,9,3-6 hrs
+U411,34,Male,3.8,7,6,7,5,TikTok,10,3-6 hrs
+U412,27,Male,6.5,7,7,2,3,Facebook,10,6-9 hrs
+U413,24,Male,8.8,5,9,0,3,YouTube,6,6-9 hrs
+U414,22,Female,5.9,5,6,2,1,LinkedIn,9,3-6 hrs
+U415,43,Male,5.8,6,7,4,3,LinkedIn,9,3-6 hrs
+U416,29,Female,3.8,7,6,3,2,LinkedIn,8,3-6 hrs
+U417,46,Male,8.0,4,8,3,2,Facebook,9,6-9 hrs
+U418,34,Female,5.4,4,5,4,4,X (Twitter),10,3-6 hrs
+U419,31,Male,4.5,8,5,0,4,Instagram,10,3-6 hrs
+U420,20,Male,5.6,8,8,3,5,Instagram,8,3-6 hrs
+U421,27,Other,6.3,4,9,5,5,TikTok,6,6-9 hrs
+U422,40,Female,5.8,7,8,4,4,TikTok,8,3-6 hrs
+U423,36,Male,7.7,5,8,4,0,LinkedIn,8,6-9 hrs
+U424,38,Female,6.2,7,6,6,5,LinkedIn,10,6-9 hrs
+U425,31,Female,5.0,7,6,3,4,TikTok,10,3-6 hrs
+U426,29,Female,6.2,6,9,2,1,YouTube,8,6-9 hrs
+U427,46,Female,6.4,6,8,5,4,X (Twitter),8,6-9 hrs
+U428,20,Male,3.2,7,5,5,1,X (Twitter),9,3-6 hrs
+U429,38,Male,7.6,6,9,4,3,X (Twitter),8,6-9 hrs
+U430,44,Male,5.0,6,5,3,1,X (Twitter),10,3-6 hrs
+U431,26,Female,5.0,6,6,3,1,TikTok,10,3-6 hrs
+U432,33,Female,6.9,6,7,0,4,Instagram,7,6-9 hrs
+U433,27,Male,6.8,5,8,5,4,TikTok,7,6-9 hrs
+U434,24,Male,4.2,8,7,5,3,X (Twitter),7,3-6 hrs
+U435,25,Female,6.9,7,7,0,2,TikTok,9,6-9 hrs
+U436,32,Other,4.5,8,5,5,0,X (Twitter),10,3-6 hrs
+U437,22,Female,8.8,2,9,4,2,Facebook,7,6-9 hrs
+U438,28,Male,4.0,7,5,1,3,LinkedIn,9,3-6 hrs
+U439,24,Male,5.9,7,6,1,2,Instagram,8,3-6 hrs
+U440,42,Male,4.1,6,6,4,2,Facebook,9,3-6 hrs
+U441,17,Female,9.5,4,9,2,2,YouTube,4,9-12 hrs
+U442,20,Male,3.3,8,4,7,2,TikTok,10,3-6 hrs
+U443,44,Female,6.4,5,6,5,3,YouTube,6,6-9 hrs
+U444,34,Male,4.2,8,4,4,2,TikTok,10,3-6 hrs
+U445,23,Female,4.9,7,7,4,5,LinkedIn,7,3-6 hrs
+U446,16,Female,6.3,6,7,6,0,Facebook,8,6-9 hrs
+U447,37,Female,7.7,4,8,5,2,LinkedIn,8,6-9 hrs
+U448,32,Male,8.4,5,9,4,1,X (Twitter),7,6-9 hrs
+U449,22,Male,2.7,6,6,1,3,LinkedIn,8,0-3 hrs
+U450,40,Male,6.0,4,6,9,3,LinkedIn,8,6-9 hrs
+U451,19,Female,8.1,5,9,1,5,X (Twitter),7,6-9 hrs
+U452,21,Female,2.5,9,3,2,5,TikTok,10,0-3 hrs
+U453,46,Female,6.1,6,8,0,1,X (Twitter),6,6-9 hrs
+U454,34,Female,5.5,6,5,4,3,Facebook,10,3-6 hrs
+U455,42,Female,6.2,6,6,3,3,LinkedIn,6,6-9 hrs
+U456,25,Male,4.1,6,5,5,1,X (Twitter),9,3-6 hrs
+U457,41,Female,2.9,8,3,0,3,LinkedIn,10,0-3 hrs
+U458,34,Male,2.1,9,4,5,2,Facebook,10,0-3 hrs
+U459,18,Male,7.3,5,8,1,1,YouTube,7,6-9 hrs
+U460,28,Female,7.5,6,8,3,2,Facebook,6,6-9 hrs
+U461,43,Male,6.0,6,5,5,1,Instagram,9,6-9 hrs
+U462,35,Male,4.5,7,8,4,4,Instagram,8,3-6 hrs
+U463,43,Female,2.6,9,5,4,5,Instagram,10,0-3 hrs
+U464,23,Male,6.5,5,10,5,3,LinkedIn,5,6-9 hrs
+U465,16,Female,3.5,8,5,4,3,TikTok,10,3-6 hrs
+U466,18,Male,4.2,7,7,2,3,TikTok,10,3-6 hrs
+U467,28,Male,4.4,7,7,3,4,TikTok,8,3-6 hrs
+U468,43,Male,5.1,6,6,3,4,LinkedIn,9,3-6 hrs
+U469,40,Male,4.1,6,7,1,2,Facebook,10,3-6 hrs
+U470,48,Female,5.6,6,6,5,3,TikTok,8,3-6 hrs
+U471,21,Male,4.4,5,6,4,3,YouTube,7,3-6 hrs
+U472,47,Female,6.8,5,4,3,1,Instagram,10,6-9 hrs
+U473,36,Female,7.4,3,8,5,4,Facebook,5,6-9 hrs
+U474,31,Female,5.7,7,5,3,5,Instagram,10,3-6 hrs
+U475,36,Female,6.3,7,7,3,4,TikTok,8,6-9 hrs
+U476,26,Female,9.3,3,8,2,1,Facebook,6,9-12 hrs
+U477,34,Male,3.4,8,5,4,0,X (Twitter),10,3-6 hrs
+U478,35,Male,3.3,9,6,4,4,YouTube,10,3-6 hrs
+U479,33,Male,6.8,6,8,2,1,TikTok,9,6-9 hrs
+U480,29,Female,9.0,4,10,3,3,TikTok,4,9-12 hrs
+U481,30,Male,5.0,7,8,2,5,YouTube,7,3-6 hrs
+U482,46,Female,8.6,4,8,2,2,YouTube,4,6-9 hrs
+U483,16,Female,5.7,6,6,0,2,X (Twitter),8,3-6 hrs
+U484,18,Male,4.3,7,7,3,3,TikTok,10,3-6 hrs
+U485,31,Female,3.7,7,7,0,1,LinkedIn,9,3-6 hrs
+U486,38,Male,6.6,6,8,2,1,TikTok,7,6-9 hrs
+U487,26,Male,3.9,8,5,2,3,Instagram,10,3-6 hrs
+U488,27,Female,5.6,7,7,5,2,Facebook,8,3-6 hrs
+U489,25,Female,8.4,5,9,1,3,Facebook,7,6-9 hrs
+U490,47,Female,4.9,7,7,1,7,Instagram,10,3-6 hrs
+U491,31,Male,7.9,5,8,2,3,Facebook,6,6-9 hrs
+U492,23,Male,3.3,10,4,2,1,YouTube,10,3-6 hrs
+U493,27,Female,4.5,5,7,6,5,Facebook,9,3-6 hrs
+U494,39,Female,3.0,7,2,1,0,Facebook,10,3-6 hrs
+U495,43,Female,5.6,8,6,2,0,Instagram,10,3-6 hrs
+U496,23,Male,6.9,5,7,4,2,X (Twitter),10,6-9 hrs
+U497,43,Female,5.6,7,6,5,2,Facebook,9,3-6 hrs
+U498,41,Male,7.7,5,7,2,2,LinkedIn,8,6-9 hrs
+U499,23,Male,4.2,9,7,0,2,Facebook,9,3-6 hrs
+U500,43,Female,5.9,5,8,3,3,X (Twitter),7,3-6 hrs
+U501,47,Male,5.9,4,7,3,4,Instagram,7,3-6 hrs
+U502,31,Other,4.5,8,5,5,0,X (Twitter),10,3-6 hrs
+U503,34,Male,4.3,8,4,6,4,LinkedIn,10,3-6 hrs
+U504,44,Female,6.6,5,6,1,4,Instagram,8,6-9 hrs
+U505,37,Male,5.6,7,6,1,4,Instagram,9,3-6 hrs
+U506,22,Female,7.5,6,8,2,3,TikTok,7,6-9 hrs
+U507,22,Female,6.0,6,9,1,2,TikTok,5,6-9 hrs
+U508,40,Female,2.7,8,4,6,4,X (Twitter),10,0-3 hrs
+U509,47,Male,5.9,4,8,2,4,Instagram,7,3-6 hrs
+U510,43,Female,5.6,8,6,5,3,TikTok,10,3-6 hrs
+U511,28,Male,4.1,6,6,4,4,TikTok,8,3-6 hrs
+U512,48,Female,6.5,5,7,2,3,TikTok,6,6-9 hrs
+U513,29,Male,6.2,8,7,3,2,Facebook,6,6-9 hrs
+U514,19,Male,7.3,4,8,1,2,YouTube,8,6-9 hrs
+U515,37,Female,3.0,7,8,3,1,X (Twitter),10,3-6 hrs
+U516,27,Other,3.0,8,6,4,5,X (Twitter),10,3-6 hrs
+U517,30,Female,3.7,8,4,3,4,Facebook,10,3-6 hrs
+U518,42,Male,6.2,5,7,2,2,Instagram,8,6-9 hrs
+U519,41,Female,7.6,4,9,6,3,YouTube,4,6-9 hrs
+U520,42,Female,6.0,5,8,0,1,LinkedIn,7,6-9 hrs
+U521,34,Female,1.8,9,7,2,3,LinkedIn,10,0-3 hrs
+U522,43,Female,4.7,5,6,1,4,Facebook,9,3-6 hrs
+U523,47,Male,5.3,7,8,5,4,YouTube,9,3-6 hrs
+U524,25,Male,6.4,5,9,5,3,Facebook,7,6-9 hrs
+U525,23,Male,3.0,9,3,2,1,YouTube,10,3-6 hrs
+U526,22,Female,6.0,5,5,2,1,LinkedIn,8,6-9 hrs
+U527,21,Male,5.0,6,6,5,2,X (Twitter),10,3-6 hrs
+U528,19,Male,2.6,8,4,1,1,LinkedIn,9,0-3 hrs
+U529,17,Female,5.1,7,6,3,3,X (Twitter),10,3-6 hrs
+U530,34,Male,3.8,9,4,4,2,TikTok,9,3-6 hrs
+U531,36,Male,6.2,8,9,3,4,TikTok,10,6-9 hrs
+U532,49,Male,5.4,5,7,6,3,YouTube,8,3-6 hrs
+U533,28,Female,7.8,6,8,2,2,Facebook,7,6-9 hrs
+U534,27,Other,4.4,7,7,2,1,X (Twitter),8,3-6 hrs
+U535,42,Other,6.3,7,6,6,3,TikTok,10,6-9 hrs
+U536,39,Female,3.4,9,4,0,0,Facebook,9,3-6 hrs
+U537,48,Female,7.4,4,9,4,6,YouTube,5,6-9 hrs
+U538,20,Female,3.7,6,5,2,2,X (Twitter),10,3-6 hrs
+U539,41,Male,3.5,8,6,3,1,TikTok,8,3-6 hrs
+U540,36,Female,6.5,7,7,3,4,TikTok,7,6-9 hrs
+U541,31,Male,8.0,5,10,4,2,Instagram,6,6-9 hrs
+U542,44,Male,4.3,8,6,6,2,Instagram,10,3-6 hrs
+U543,26,Female,9.0,3,9,2,1,Facebook,6,9-12 hrs
+U544,45,Female,5.1,7,8,3,3,Facebook,6,3-6 hrs
+U545,23,Male,6.7,5,9,5,3,LinkedIn,4,6-9 hrs
+U546,44,Female,6.5,5,6,2,3,Instagram,9,6-9 hrs
+U547,31,Female,4.3,8,6,0,4,X (Twitter),10,3-6 hrs
+U548,16,Female,6.2,6,7,6,0,Facebook,7,6-9 hrs
+U549,18,Female,6.6,6,8,0,2,X (Twitter),8,6-9 hrs
+U550,16,Female,6.3,6,6,7,0,Facebook,9,6-9 hrs
+U551,25,Female,1.9,8,4,5,3,X (Twitter),10,0-3 hrs
+U552,48,Female,4.9,8,5,5,0,LinkedIn,10,3-6 hrs
+U553,22,Female,5.0,6,7,7,3,YouTube,9,3-6 hrs
+U554,45,Male,6.3,7,9,0,3,Facebook,7,6-9 hrs
+U555,16,Female,5.5,8,5,6,2,Facebook,10,3-6 hrs
+U556,42,Female,6.1,6,8,0,1,LinkedIn,7,6-9 hrs
+U557,31,Female,3.6,7,7,0,1,LinkedIn,9,3-6 hrs
+U558,33,Female,6.0,5,6,1,3,TikTok,7,6-9 hrs
+U559,30,Female,7.7,4,10,2,1,X (Twitter),8,6-9 hrs
+U560,40,Female,3.2,8,4,5,4,X (Twitter),10,3-6 hrs
+U561,36,Female,3.7,7,3,3,3,TikTok,9,3-6 hrs
+U562,24,Male,6.9,7,9,6,2,TikTok,7,6-9 hrs
+U563,39,Male,6.9,5,7,4,0,YouTube,9,6-9 hrs
+U564,44,Female,2.3,10,4,4,4,YouTube,10,0-3 hrs
+U565,42,Male,7.4,3,8,6,5,Instagram,6,6-9 hrs
+U566,16,Male,3.7,7,5,5,4,TikTok,10,3-6 hrs
+U567,39,Female,5.8,4,7,4,0,Facebook,7,3-6 hrs
+U568,32,Male,9.5,3,9,2,3,Instagram,5,9-12 hrs
+U569,42,Male,5.1,8,7,5,2,TikTok,8,3-6 hrs
+U570,49,Male,6.5,6,8,1,3,Instagram,9,6-9 hrs
+U571,45,Female,3.4,7,5,3,3,YouTube,10,3-6 hrs
+U572,18,Male,2.4,7,4,2,1,LinkedIn,9,0-3 hrs
+U573,36,Female,6.3,7,6,4,2,YouTube,10,6-9 hrs
+U574,18,Male,5.6,5,6,4,3,LinkedIn,9,3-6 hrs
+U575,18,Male,3.2,9,5,2,2,Instagram,10,3-6 hrs
+U576,34,Male,3.7,8,3,4,2,TikTok,10,3-6 hrs
+U577,42,Female,6.6,7,6,3,2,LinkedIn,6,6-9 hrs
+U578,20,Male,3.0,8,5,4,1,X (Twitter),9,3-6 hrs
+U579,17,Male,9.5,4,8,6,4,TikTok,4,9-12 hrs
+U580,26,Female,4.7,7,6,4,1,TikTok,10,3-6 hrs
+U581,41,Other,6.6,8,7,2,3,LinkedIn,9,6-9 hrs
+U582,23,Male,3.1,9,5,3,2,Facebook,10,3-6 hrs
+U583,24,Female,4.9,6,6,2,2,Instagram,8,3-6 hrs
+U584,20,Male,5.4,8,8,3,5,Instagram,8,3-6 hrs
+U585,48,Male,3.4,7,6,4,2,TikTok,9,3-6 hrs
+U586,42,Male,6.2,5,7,1,2,Instagram,9,6-9 hrs
+U587,44,Female,2.4,8,4,3,4,YouTube,10,0-3 hrs
+U588,30,Other,5.2,6,8,5,2,LinkedIn,10,3-6 hrs
+U589,36,Female,7.2,5,8,3,4,YouTube,7,6-9 hrs
+U590,30,Female,6.6,6,8,6,2,TikTok,8,6-9 hrs
+U591,45,Male,6.3,7,8,1,3,LinkedIn,6,6-9 hrs
+U592,39,Female,6.8,4,8,0,2,Facebook,7,6-9 hrs
+U593,41,Female,6.1,8,9,0,4,TikTok,6,6-9 hrs
+U594,34,Male,3.3,8,5,4,0,X (Twitter),10,3-6 hrs
+U595,40,Male,3.2,7,7,3,3,YouTube,9,3-6 hrs
+U596,39,Male,4.6,8,5,3,0,YouTube,10,3-6 hrs
+U597,28,Male,5.8,7,6,1,2,X (Twitter),9,3-6 hrs
+U598,17,Other,2.1,9,3,3,4,X (Twitter),10,0-3 hrs
+U599,21,Female,3.6,9,6,6,1,YouTube,8,3-6 hrs
+U600,39,Male,4.3,10,8,1,3,TikTok,8,3-6 hrs
+U601,16,Female,6.2,7,7,5,0,Facebook,8,6-9 hrs
+U602,19,Male,4.2,7,6,3,3,TikTok,10,3-6 hrs
+U603,24,Female,5.7,8,6,1,2,YouTube,10,3-6 hrs
+U604,16,Other,7.6,5,9,1,3,Instagram,8,6-9 hrs
+U605,28,Female,7.8,3,7,2,1,Facebook,7,6-9 hrs
+U606,44,Female,6.5,5,6,2,3,Instagram,8,6-9 hrs
+U607,25,Male,4.0,5,6,5,0,X (Twitter),9,3-6 hrs
+U608,35,Male,5.0,7,7,4,5,Instagram,8,3-6 hrs
+U609,48,Female,6.7,5,6,1,4,TikTok,7,6-9 hrs
+U610,46,Female,6.8,6,8,4,2,X (Twitter),8,6-9 hrs
+U611,31,Female,4.0,9,6,0,4,X (Twitter),10,3-6 hrs
+U612,48,Female,6.0,5,7,3,0,Instagram,7,6-9 hrs
+U613,17,Female,9.8,3,9,6,0,LinkedIn,6,9-12 hrs
+U614,39,Male,6.3,5,8,1,2,LinkedIn,7,6-9 hrs
+U615,43,Female,5.8,7,7,3,2,LinkedIn,10,3-6 hrs
+U616,41,Female,9.4,4,9,4,2,Instagram,7,9-12 hrs
+U617,18,Male,2.9,10,5,1,4,Instagram,10,0-3 hrs
+U618,46,Female,3.4,7,5,3,3,YouTube,10,3-6 hrs
+U619,32,Male,5.3,5,8,5,2,Instagram,7,3-6 hrs
+U620,27,Female,5.1,4,7,6,3,TikTok,9,3-6 hrs
+U621,47,Male,4.3,9,5,1,0,X (Twitter),10,3-6 hrs
+U622,47,Female,7.1,6,8,4,2,X (Twitter),7,6-9 hrs
+U623,45,Female,5.6,7,8,3,4,Facebook,7,3-6 hrs
+U624,45,Female,4.2,8,7,4,2,TikTok,10,3-6 hrs
+U625,27,Female,4.4,5,7,6,5,Facebook,9,3-6 hrs
+U626,29,Male,6.9,5,7,4,1,X (Twitter),10,6-9 hrs
+U627,27,Female,6.9,6,8,2,5,Instagram,8,6-9 hrs
+U628,44,Male,6.4,7,7,4,3,X (Twitter),10,6-9 hrs
+U629,47,Female,4.3,8,4,3,5,Facebook,10,3-6 hrs
+U630,30,Male,6.5,3,10,4,3,TikTok,5,6-9 hrs
+U631,20,Female,3.6,6,5,2,3,X (Twitter),10,3-6 hrs
+U632,40,Male,3.9,6,5,5,2,TikTok,9,3-6 hrs
+U633,39,Male,4.9,7,7,6,1,YouTube,9,3-6 hrs
+U634,25,Male,6.0,6,9,5,4,Facebook,7,6-9 hrs
+U635,20,Male,8.3,5,7,6,3,Instagram,7,6-9 hrs
+U636,22,Male,3.3,10,4,1,1,YouTube,10,3-6 hrs
+U637,47,Female,2.7,8,5,1,2,Instagram,10,0-3 hrs
+U638,47,Female,6.4,5,4,4,1,Instagram,10,6-9 hrs
+U639,41,Female,4.6,7,7,1,2,X (Twitter),10,3-6 hrs
+U640,28,Male,5.5,7,6,3,1,LinkedIn,10,3-6 hrs
+U641,23,Male,4.5,10,7,0,2,Facebook,9,3-6 hrs
+U642,24,Female,4.9,5,7,4,4,Instagram,7,3-6 hrs
+U643,23,Male,6.9,6,7,1,1,LinkedIn,7,6-9 hrs
+U644,37,Female,5.3,7,6,4,0,Instagram,10,3-6 hrs
+U645,31,Male,4.7,8,5,0,5,Instagram,9,3-6 hrs
+U646,38,Female,6.9,4,8,3,1,Instagram,6,6-9 hrs
+U647,23,Male,1.4,9,3,2,3,TikTok,10,0-3 hrs
+U648,47,Female,2.0,8,4,5,2,X (Twitter),10,0-3 hrs
+U649,48,Female,4.5,8,7,2,7,Instagram,10,3-6 hrs
+U650,42,Female,9.1,5,8,1,0,LinkedIn,5,9-12 hrs
+U651,29,Male,7.1,5,7,4,1,X (Twitter),10,6-9 hrs
+U652,35,Female,1.8,8,4,5,1,Facebook,10,0-3 hrs
+U653,29,Female,7.5,4,10,2,1,X (Twitter),8,6-9 hrs
+U654,35,Female,5.2,7,5,4,0,Facebook,10,3-6 hrs
+U655,31,Female,6.6,6,7,6,2,Facebook,8,6-9 hrs
+U656,33,Male,4.9,7,6,1,2,LinkedIn,8,3-6 hrs
+U657,34,Female,5.1,4,5,5,4,X (Twitter),10,3-6 hrs
+U658,29,Female,3.0,9,4,2,3,LinkedIn,10,3-6 hrs
+U659,33,Female,3.9,7,7,5,4,LinkedIn,9,3-6 hrs
+U660,36,Female,4.6,6,6,5,4,YouTube,9,3-6 hrs
+U661,41,Female,5.7,5,7,2,0,TikTok,9,3-6 hrs
+U662,19,Female,8.6,6,7,5,2,YouTube,9,6-9 hrs
+U663,38,Other,2.7,8,6,3,3,X (Twitter),10,0-3 hrs
+U664,30,Female,7.8,4,8,0,1,LinkedIn,8,6-9 hrs
+U665,35,Male,5.4,7,7,2,0,Facebook,7,3-6 hrs
+U666,42,Male,6.6,5,8,1,2,Instagram,8,6-9 hrs
+U667,31,Female,5.6,8,8,2,3,LinkedIn,8,3-6 hrs
+U668,36,Female,5.8,8,6,3,3,TikTok,7,3-6 hrs
+U669,41,Other,6.8,8,7,2,2,LinkedIn,10,6-9 hrs
+U670,22,Male,3.1,6,6,0,3,LinkedIn,9,3-6 hrs
+U671,37,Female,4.9,8,6,4,3,YouTube,8,3-6 hrs
+U672,41,Male,2.1,8,3,6,3,Instagram,10,0-3 hrs
+U673,26,Female,4.9,6,6,3,1,TikTok,10,3-6 hrs
+U674,34,Male,4.3,7,7,4,4,Instagram,8,3-6 hrs
+U675,41,Female,6.3,5,8,1,0,LinkedIn,8,6-9 hrs
+U676,40,Male,7.5,3,8,4,0,Facebook,7,6-9 hrs
+U677,35,Female,6.8,4,7,5,1,X (Twitter),9,6-9 hrs
+U678,29,Male,5.6,6,6,0,2,X (Twitter),9,3-6 hrs
+U679,18,Female,4.1,8,7,6,2,TikTok,8,3-6 hrs
+U680,47,Female,3.6,8,4,2,4,LinkedIn,10,3-6 hrs
+U681,48,Male,7.4,5,8,5,3,LinkedIn,7,6-9 hrs
+U682,38,Female,1.7,9,4,4,5,LinkedIn,10,0-3 hrs
+U683,39,Male,4.6,5,5,4,4,Facebook,8,3-6 hrs
+U684,36,Male,6.1,4,7,1,4,Instagram,8,6-9 hrs
+U685,45,Male,6.5,7,6,4,3,X (Twitter),8,6-9 hrs
+U686,49,Male,6.4,5,8,0,4,Instagram,8,6-9 hrs
+U687,32,Male,6.1,5,6,3,3,Instagram,7,6-9 hrs
+U688,43,Female,4.3,8,7,4,2,TikTok,10,3-6 hrs
+U689,42,Male,6.3,6,6,5,1,Instagram,9,6-9 hrs
+U690,23,Other,6.8,5,10,4,2,LinkedIn,6,6-9 hrs
+U691,41,Female,4.6,8,7,0,4,X (Twitter),10,3-6 hrs
+U692,20,Female,5.2,7,5,3,3,YouTube,9,3-6 hrs
+U693,42,Female,8.5,4,8,1,1,LinkedIn,6,6-9 hrs
+U694,20,Female,6.2,5,7,0,2,YouTube,8,6-9 hrs
+U695,28,Female,3.2,8,5,1,3,YouTube,10,3-6 hrs
+U696,29,Male,3.9,8,5,3,3,TikTok,10,3-6 hrs
+U697,44,Female,2.4,8,4,3,4,YouTube,10,0-3 hrs
+U698,22,Male,4.3,6,6,0,1,YouTube,7,3-6 hrs
+U699,31,Female,3.6,8,7,1,0,LinkedIn,9,3-6 hrs
+U700,37,Female,4.4,6,6,5,4,YouTube,10,3-6 hrs
+U701,42,Female,9.1,3,8,1,1,LinkedIn,6,9-12 hrs
+U702,44,Female,5.5,7,7,4,1,LinkedIn,9,3-6 hrs
+U703,17,Male,2.2,10,5,4,1,LinkedIn,10,0-3 hrs
+U704,18,Male,5.6,5,7,4,2,X (Twitter),5,3-6 hrs
+U705,23,Male,4.3,6,7,5,3,X (Twitter),9,3-6 hrs
+U706,17,Other,5.3,6,7,4,3,TikTok,7,3-6 hrs
+U707,17,Female,7.3,7,10,7,1,YouTube,7,6-9 hrs
+U708,19,Male,7.7,5,9,2,4,Instagram,4,6-9 hrs
+U709,41,Male,4.1,7,4,6,3,TikTok,9,3-6 hrs
+U710,46,Female,3.5,9,5,4,5,TikTok,9,3-6 hrs
+U711,43,Male,4.7,6,5,3,5,YouTube,10,3-6 hrs
+U712,37,Female,5.9,5,6,3,2,TikTok,9,3-6 hrs
+U713,30,Female,6.1,6,10,3,2,YouTube,7,6-9 hrs
+U714,16,Male,4.4,8,5,4,1,YouTube,10,3-6 hrs
+U715,44,Male,4.5,7,6,7,2,Instagram,10,3-6 hrs
+U716,22,Female,3.8,5,6,4,2,X (Twitter),8,3-6 hrs
+U717,41,Female,5.6,5,7,1,2,TikTok,9,3-6 hrs
+U718,18,Female,9.4,3,9,3,2,YouTube,5,9-12 hrs
+U719,39,Female,5.8,7,6,3,4,LinkedIn,9,3-6 hrs
+U720,30,Female,5.8,7,8,4,2,YouTube,7,3-6 hrs
+U721,36,Female,2.3,8,4,6,1,Facebook,10,0-3 hrs
+U722,30,Male,6.7,8,7,2,1,X (Twitter),9,6-9 hrs
+U723,17,Other,2.3,9,3,2,6,X (Twitter),10,0-3 hrs
+U724,35,Female,6.3,7,7,4,1,YouTube,9,6-9 hrs
+U725,49,Male,6.1,5,5,4,3,LinkedIn,10,6-9 hrs
+U726,16,Female,6.2,6,7,6,0,Facebook,8,6-9 hrs
+U727,30,Male,6.0,8,7,3,2,Facebook,7,6-9 hrs
+U728,19,Female,3.3,7,6,4,4,TikTok,9,3-6 hrs
+U729,25,Male,8.3,5,9,2,3,TikTok,8,6-9 hrs
+U730,36,Female,7.4,3,8,4,4,Facebook,5,6-9 hrs
+U731,41,Female,8.8,4,8,1,2,LinkedIn,6,6-9 hrs
+U732,31,Female,4.3,7,5,1,4,X (Twitter),9,3-6 hrs
+U733,48,Male,7.3,4,8,3,4,Instagram,5,6-9 hrs
+U734,23,Female,3.8,8,7,4,5,X (Twitter),10,3-6 hrs
+U735,32,Male,7.5,4,7,2,4,Instagram,6,6-9 hrs
+U736,38,Female,1.5,9,3,5,5,LinkedIn,10,0-3 hrs
+U737,16,Female,6.3,6,7,7,0,Facebook,8,6-9 hrs
+U738,26,Male,4.8,6,5,5,2,X (Twitter),9,3-6 hrs
+U739,20,Female,3.8,9,5,3,2,X (Twitter),10,3-6 hrs
+U740,43,Male,5.9,7,5,4,1,Instagram,9,3-6 hrs
+U741,49,Male,6.4,7,9,2,3,LinkedIn,8,6-9 hrs
+U742,18,Female,7.2,3,7,3,2,X (Twitter),6,6-9 hrs
+U743,46,Male,7.3,7,6,5,1,LinkedIn,7,6-9 hrs
+U744,33,Male,7.5,5,7,1,1,YouTube,6,6-9 hrs
+U745,26,Male,4.4,7,5,5,1,X (Twitter),10,3-6 hrs
+U746,33,Male,4.1,7,6,7,5,TikTok,10,3-6 hrs
+U747,46,Female,5.6,6,6,3,4,TikTok,10,3-6 hrs
+U748,48,Female,6.2,4,8,6,2,X (Twitter),9,6-9 hrs
+U749,32,Other,3.7,9,5,0,2,YouTube,10,3-6 hrs
+U750,47,Male,7.3,4,10,4,5,Instagram,5,6-9 hrs
+U751,32,Female,6.1,5,6,2,3,TikTok,7,6-9 hrs
+U752,36,Male,6.8,8,7,4,2,TikTok,9,6-9 hrs
+U753,36,Male,5.3,7,7,1,0,Facebook,8,3-6 hrs
+U754,41,Female,7.3,4,8,6,2,YouTube,6,6-9 hrs
+U755,43,Female,2.6,9,6,4,5,Instagram,10,0-3 hrs
+U756,16,Female,5.5,6,5,6,0,Facebook,8,3-6 hrs
+U757,46,Male,4.2,7,7,5,0,YouTube,8,3-6 hrs
+U758,20,Male,7.9,5,9,3,5,Instagram,4,6-9 hrs
+U759,29,Male,3.7,8,7,2,4,TikTok,9,3-6 hrs
+U760,46,Female,6.6,5,4,3,1,Instagram,10,6-9 hrs
+U761,49,Male,6.1,6,7,1,3,LinkedIn,8,6-9 hrs
+U762,48,Male,6.9,4,7,3,3,YouTube,7,6-9 hrs
+U763,37,Female,4.2,6,8,3,5,LinkedIn,9,3-6 hrs
+U764,47,Female,6.2,5,8,7,2,X (Twitter),8,6-9 hrs
+U765,43,Female,5.6,7,6,5,2,Facebook,9,3-6 hrs
+U766,21,Male,3.1,8,4,7,2,TikTok,10,3-6 hrs
+U767,29,Female,3.4,7,5,0,2,YouTube,9,3-6 hrs
+U768,32,Male,4.7,7,6,1,2,LinkedIn,7,3-6 hrs
+U769,30,Female,1.7,9,3,3,7,TikTok,10,0-3 hrs
+U770,19,Male,2.7,8,5,2,1,LinkedIn,9,0-3 hrs
+U771,26,Male,8.2,6,7,3,2,Instagram,7,6-9 hrs
+U772,37,Female,3.9,7,7,3,4,LinkedIn,10,3-6 hrs
+U773,41,Male,2.6,9,4,6,3,Instagram,10,0-3 hrs
+U774,38,Female,4.9,6,8,3,6,LinkedIn,9,3-6 hrs
+U775,43,Male,4.1,6,6,3,2,Facebook,9,3-6 hrs
+U776,24,Female,4.8,6,5,1,2,Instagram,7,3-6 hrs
+U777,46,Female,3.7,9,4,4,5,TikTok,10,3-6 hrs
+U778,36,Female,4.6,7,9,2,5,LinkedIn,9,3-6 hrs
+U779,31,Other,5.3,7,8,5,3,LinkedIn,10,3-6 hrs
+U780,23,Male,5.5,5,4,4,0,X (Twitter),10,3-6 hrs
+U781,35,Female,5.4,7,7,4,3,X (Twitter),8,3-6 hrs
+U782,29,Female,7.2,5,8,6,1,TikTok,7,6-9 hrs
+U783,38,Female,6.0,6,8,1,1,Instagram,8,6-9 hrs
+U784,31,Female,3.5,7,7,1,1,LinkedIn,9,3-6 hrs
+U785,31,Female,3.7,7,5,3,1,Facebook,10,3-6 hrs
+U786,48,Male,7.0,5,9,5,5,Instagram,5,6-9 hrs
+U787,22,Female,3.6,7,6,3,4,X (Twitter),10,3-6 hrs
+U788,45,Male,1.9,10,6,7,1,Facebook,10,0-3 hrs
+U789,42,Male,5.7,8,7,0,1,LinkedIn,9,3-6 hrs
+U790,23,Male,5.7,5,4,3,0,X (Twitter),10,3-6 hrs
+U791,46,Female,3.5,7,5,3,3,YouTube,10,3-6 hrs
+U792,35,Male,5.4,7,8,2,0,Facebook,7,3-6 hrs
+U793,30,Male,5.6,6,7,0,2,X (Twitter),8,3-6 hrs
+U794,19,Male,7.8,4,9,2,5,Instagram,6,6-9 hrs
+U795,34,Male,7.1,5,8,1,1,YouTube,6,6-9 hrs
+U796,29,Female,3.4,7,6,3,2,LinkedIn,9,3-6 hrs
+U797,39,Female,6.3,5,8,3,3,LinkedIn,7,6-9 hrs
+U798,44,Female,7.5,7,8,4,3,YouTube,9,6-9 hrs
+U799,23,Male,6.1,6,6,1,3,Instagram,8,6-9 hrs
+U800,48,Female,9.9,3,10,3,2,TikTok,4,9-12 hrs
+U801,44,Female,6.4,7,9,1,4,YouTube,7,6-9 hrs
+U802,39,Female,6.9,3,6,1,6,Instagram,8,6-9 hrs
+U803,38,Female,7.2,5,7,1,2,YouTube,9,6-9 hrs
+U804,18,Female,4.4,8,7,6,3,TikTok,10,3-6 hrs
+U805,21,Male,5.2,7,6,7,2,X (Twitter),10,3-6 hrs
+U806,30,Male,5.8,4,8,5,2,Instagram,8,3-6 hrs
+U807,18,Male,1.3,9,4,1,2,X (Twitter),10,0-3 hrs
+U808,29,Female,4.9,8,5,4,1,LinkedIn,9,3-6 hrs
+U809,24,Female,6.4,3,10,0,4,Facebook,7,6-9 hrs
+U810,35,Male,7.0,5,7,1,0,YouTube,6,6-9 hrs
+U811,49,Female,5.7,5,6,5,3,TikTok,8,3-6 hrs
+U812,47,Female,5.4,7,7,3,2,Facebook,8,3-6 hrs
+U813,35,Male,7.9,6,9,4,2,Instagram,7,6-9 hrs
+U814,17,Male,7.3,7,8,3,1,Instagram,8,6-9 hrs
+U815,42,Male,8.1,4,7,3,3,Facebook,8,6-9 hrs
+U816,35,Female,5.6,8,6,4,0,Facebook,10,3-6 hrs
+U817,48,Male,2.8,7,5,5,3,YouTube,10,0-3 hrs
+U818,46,Female,3.5,9,5,4,5,TikTok,10,3-6 hrs
+U819,27,Male,10.6,1,10,4,2,X (Twitter),4,9-12 hrs
+U820,22,Male,6.7,6,10,5,5,LinkedIn,5,6-9 hrs
+U821,34,Male,3.8,8,4,4,4,LinkedIn,10,3-6 hrs
+U822,18,Female,7.1,4,8,3,2,X (Twitter),5,6-9 hrs
+U823,49,Male,4.6,7,6,2,2,TikTok,10,3-6 hrs
+U824,47,Female,6.8,5,8,4,2,X (Twitter),8,6-9 hrs
+U825,45,Female,6.5,5,5,5,3,YouTube,6,6-9 hrs
+U826,20,Male,6.1,8,8,3,5,Instagram,9,6-9 hrs
+U827,44,Male,2.1,10,4,6,2,Facebook,10,0-3 hrs
+U828,49,Male,6.6,5,9,1,4,Instagram,8,6-9 hrs
+U829,18,Female,8.3,5,9,1,5,X (Twitter),7,6-9 hrs
+U830,47,Male,6.2,5,7,6,0,YouTube,9,6-9 hrs
+U831,49,Male,4.9,6,5,2,4,TikTok,10,3-6 hrs
+U832,20,Female,5.0,5,4,3,2,YouTube,9,3-6 hrs
+U833,31,Female,5.0,7,5,1,4,X (Twitter),10,3-6 hrs
+U834,33,Male,7.4,5,9,2,3,YouTube,7,6-9 hrs
+U835,25,Female,8.1,5,9,1,3,Facebook,8,6-9 hrs
+U836,45,Male,7.6,5,8,3,2,Facebook,8,6-9 hrs
+U837,38,Female,6.3,7,7,6,5,LinkedIn,10,6-9 hrs
+U838,18,Female,2.8,7,6,4,3,TikTok,9,0-3 hrs
+U839,23,Other,4.9,5,7,4,2,Facebook,9,3-6 hrs
+U840,41,Female,9.1,4,9,3,2,Instagram,8,9-12 hrs
+U841,41,Male,6.5,5,8,1,1,Instagram,8,6-9 hrs
+U842,21,Male,8.0,5,7,6,5,Instagram,7,6-9 hrs
+U843,41,Female,2.7,8,3,3,2,X (Twitter),10,0-3 hrs
+U844,26,Female,9.1,3,8,2,1,Facebook,5,9-12 hrs
+U845,18,Female,9.3,3,9,1,2,YouTube,4,9-12 hrs
+U846,35,Female,7.6,4,8,5,4,Facebook,5,6-9 hrs
+U847,24,Male,4.3,8,7,5,3,X (Twitter),6,3-6 hrs
+U848,17,Female,6.8,5,8,6,0,X (Twitter),7,6-9 hrs
+U849,42,Male,5.9,6,8,4,3,LinkedIn,9,3-6 hrs
+U850,36,Male,3.3,9,6,4,4,YouTube,10,3-6 hrs
+U851,20,Male,7.8,4,8,5,0,YouTube,5,6-9 hrs
+U852,30,Female,7.7,5,8,0,1,LinkedIn,8,6-9 hrs
+U853,38,Female,3.1,5,3,4,4,YouTube,10,3-6 hrs
+U854,47,Female,6.8,6,8,4,1,X (Twitter),8,6-9 hrs
+U855,18,Male,7.5,8,7,3,0,Instagram,8,6-9 hrs
+U856,49,Male,6.7,6,7,0,4,Instagram,8,6-9 hrs
+U857,22,Female,8.5,5,10,0,2,Instagram,5,6-9 hrs
+U858,43,Female,6.0,5,8,3,3,X (Twitter),7,6-9 hrs
+U859,33,Male,8.6,4,9,5,4,X (Twitter),7,6-9 hrs
+U860,48,Female,3.7,6,6,0,3,LinkedIn,10,3-6 hrs
+U861,30,Other,5.3,7,9,5,3,LinkedIn,10,3-6 hrs
+U862,22,Female,3.8,8,6,3,4,X (Twitter),10,3-6 hrs
+U863,28,Female,7.6,3,7,2,1,Facebook,8,6-9 hrs
+U864,47,Male,6.5,5,8,6,4,Instagram,8,6-9 hrs
+U865,17,Female,4.7,8,6,4,0,X (Twitter),10,3-6 hrs
+U866,47,Female,6.0,6,9,0,1,X (Twitter),7,6-9 hrs
+U867,35,Female,8.0,3,9,0,3,Facebook,8,6-9 hrs
+U868,20,Male,7.7,6,9,2,4,Instagram,6,6-9 hrs
+U869,39,Male,4.5,8,7,6,1,YouTube,9,3-6 hrs
+U870,49,Male,6.5,6,8,1,3,LinkedIn,9,6-9 hrs
+U871,30,Female,8.0,4,7,0,1,LinkedIn,8,6-9 hrs
+U872,48,Male,6.6,5,7,5,1,YouTube,9,6-9 hrs
+U873,28,Female,7.6,4,7,1,0,Facebook,7,6-9 hrs
+U874,40,Male,6.4,4,9,1,3,LinkedIn,7,6-9 hrs
+U875,42,Female,5.9,5,8,1,1,LinkedIn,7,3-6 hrs
+U876,33,Male,6.2,6,7,4,4,YouTube,7,6-9 hrs
+U877,41,Female,7.0,4,9,6,2,YouTube,5,6-9 hrs
+U878,29,Female,6.8,6,8,6,2,TikTok,7,6-9 hrs
+U879,46,Male,6.3,5,8,5,3,YouTube,8,6-9 hrs
+U880,49,Male,5.1,6,7,6,2,YouTube,8,3-6 hrs
+U881,28,Male,2.5,10,3,4,4,Instagram,10,0-3 hrs
+U882,22,Female,3.8,8,5,3,2,X (Twitter),10,3-6 hrs
+U883,31,Female,4.3,8,7,6,2,LinkedIn,8,3-6 hrs
+U884,36,Female,4.1,6,8,3,5,LinkedIn,9,3-6 hrs
+U885,24,Male,4.2,5,5,5,1,X (Twitter),10,3-6 hrs
+U886,20,Male,6.0,8,8,3,5,Instagram,9,6-9 hrs
+U887,40,Female,6.1,8,7,4,4,TikTok,7,6-9 hrs
+U888,47,Male,5.7,5,7,6,2,Facebook,9,3-6 hrs
+U889,36,Female,6.0,7,8,4,1,YouTube,9,6-9 hrs
+U890,47,Male,6.6,5,8,6,5,Instagram,8,6-9 hrs
+U891,36,Female,4.6,9,5,2,2,YouTube,9,3-6 hrs
+U892,22,Female,8.0,6,10,0,3,Instagram,5,6-9 hrs
+U893,36,Female,7.5,3,7,5,3,Facebook,4,6-9 hrs
+U894,30,Female,7.9,5,8,0,2,LinkedIn,8,6-9 hrs
+U895,47,Female,2.8,6,7,5,5,LinkedIn,9,0-3 hrs
+U896,34,Male,4.0,9,3,5,4,LinkedIn,10,3-6 hrs
+U897,40,Male,4.6,7,5,4,0,YouTube,10,3-6 hrs
+U898,49,Male,5.2,7,5,5,0,Instagram,10,3-6 hrs
+U899,27,Female,3.4,8,5,1,0,TikTok,9,3-6 hrs
+U900,41,Female,9.2,3,9,4,1,Instagram,8,9-12 hrs
+U901,27,Male,5.7,7,8,3,1,TikTok,7,3-6 hrs
+U902,41,Female,6.0,8,9,0,4,TikTok,7,6-9 hrs
+U903,37,Female,5.3,7,6,4,0,Instagram,9,3-6 hrs
+U904,40,Male,6.1,5,8,2,3,LinkedIn,7,6-9 hrs
+U905,23,Female,4.9,7,7,3,5,LinkedIn,7,3-6 hrs
+U906,31,Male,4.4,8,5,2,3,Instagram,10,3-6 hrs
+U907,18,Male,4.2,7,7,3,3,TikTok,9,3-6 hrs
+U908,49,Male,5.1,5,7,7,3,YouTube,8,3-6 hrs
+U909,21,Male,5.0,9,6,5,1,TikTok,9,3-6 hrs
+U910,37,Female,6.9,4,8,3,1,Instagram,6,6-9 hrs
+U911,46,Female,4.2,8,4,1,5,LinkedIn,10,3-6 hrs
+U912,34,Male,6.1,8,9,2,5,TikTok,10,6-9 hrs
+U913,28,Female,7.5,3,6,2,1,Facebook,7,6-9 hrs
+U914,32,Male,6.1,7,7,4,5,YouTube,7,6-9 hrs
+U915,49,Male,5.2,8,6,4,0,Instagram,10,3-6 hrs
+U916,24,Male,6.3,7,7,1,1,LinkedIn,6,6-9 hrs
+U917,31,Female,8.0,5,10,2,2,X (Twitter),8,6-9 hrs
+U918,21,Male,2.6,9,4,4,1,TikTok,10,0-3 hrs
+U919,38,Female,7.6,5,8,1,2,YouTube,9,6-9 hrs
+U920,19,Female,3.1,7,5,5,4,TikTok,8,3-6 hrs
+U921,29,Female,3.1,8,3,2,3,LinkedIn,10,3-6 hrs
+U922,34,Male,5.5,6,6,4,0,Instagram,9,3-6 hrs
+U923,28,Female,7.0,6,9,4,1,Facebook,6,6-9 hrs
+U924,43,Female,6.4,6,6,5,3,YouTube,6,6-9 hrs
+U925,44,Male,2.7,9,5,6,0,TikTok,10,0-3 hrs
+U926,48,Female,5.9,6,7,5,3,TikTok,8,3-6 hrs
+U927,17,Male,6.0,6,8,1,5,TikTok,9,6-9 hrs
+U928,43,Other,6.2,7,6,5,2,TikTok,10,6-9 hrs
+U929,47,Male,7.4,6,8,7,2,Facebook,10,6-9 hrs
+U930,32,Male,7.2,5,8,1,2,YouTube,9,6-9 hrs
+U931,42,Female,4.1,8,3,0,1,TikTok,9,3-6 hrs
+U932,23,Male,4.1,8,6,7,2,LinkedIn,10,3-6 hrs
+U933,48,Male,5.7,7,6,1,3,Facebook,8,3-6 hrs
+U934,24,Female,2.3,8,4,5,3,X (Twitter),10,0-3 hrs
+U935,28,Male,4.1,7,5,0,4,LinkedIn,9,3-6 hrs
+U936,17,Male,9.1,4,9,7,4,TikTok,4,9-12 hrs
+U937,38,Female,1.7,9,4,5,5,LinkedIn,10,0-3 hrs
+U938,21,Female,6.4,4,8,5,0,X (Twitter),6,6-9 hrs
+U939,27,Male,6.8,4,7,5,1,YouTube,7,6-9 hrs
+U940,35,Male,6.4,8,8,4,5,TikTok,9,6-9 hrs
+U941,49,Male,6.2,5,6,5,3,LinkedIn,9,6-9 hrs
+U942,42,Male,7.7,4,7,2,2,Facebook,7,6-9 hrs
+U943,30,Female,6.1,5,9,3,2,YouTube,7,6-9 hrs
+U944,19,Male,3.2,10,5,1,2,Instagram,10,3-6 hrs
+U945,32,Male,8.4,5,9,5,1,X (Twitter),8,6-9 hrs
+U946,29,Male,5.3,7,9,2,4,YouTube,7,3-6 hrs
+U947,47,Female,6.4,7,8,0,1,X (Twitter),5,6-9 hrs
+U948,49,Female,5.2,8,8,3,2,LinkedIn,8,3-6 hrs
+U949,29,Female,7.6,4,7,2,2,Facebook,8,6-9 hrs
+U950,47,Male,6.5,5,7,6,1,YouTube,9,6-9 hrs
+U951,36,Female,5.9,7,8,0,1,TikTok,8,3-6 hrs
+U952,41,Other,6.9,8,7,2,2,LinkedIn,9,6-9 hrs
+U953,18,Female,4.8,7,6,4,2,X (Twitter),10,3-6 hrs
+U954,42,Male,3.8,8,6,3,1,TikTok,8,3-6 hrs
+U955,36,Female,7.5,6,8,5,4,Facebook,7,6-9 hrs
+U956,35,Male,5.0,7,7,2,1,Facebook,7,3-6 hrs
+U957,36,Female,5.3,7,6,3,2,X (Twitter),8,3-6 hrs
+U958,32,Male,7.4,5,7,1,3,YouTube,9,6-9 hrs
+U959,34,Male,3.3,9,4,4,0,X (Twitter),10,3-6 hrs
+U960,19,Male,7.1,5,6,2,3,Facebook,9,6-9 hrs
+U961,27,Other,3.5,9,5,4,5,X (Twitter),10,3-6 hrs
+U962,38,Male,6.8,5,6,3,3,LinkedIn,8,6-9 hrs
+U963,29,Female,7.8,5,8,0,3,LinkedIn,7,6-9 hrs
+U964,43,Female,4.5,8,6,3,2,TikTok,10,3-6 hrs
+U965,48,Male,6.2,6,8,1,3,LinkedIn,8,6-9 hrs
+U966,35,Female,7.5,4,8,1,3,Facebook,8,6-9 hrs
+U967,31,Male,5.5,4,8,6,2,Instagram,7,3-6 hrs
+U968,35,Male,4.1,7,5,4,4,LinkedIn,10,3-6 hrs
+U969,44,Female,6.1,6,6,6,3,Facebook,9,6-9 hrs
+U970,45,Female,6.7,5,7,2,1,Facebook,7,6-9 hrs
+U971,33,Male,6.4,6,8,6,3,X (Twitter),6,6-9 hrs
+U972,41,Female,1.0,8,5,2,6,TikTok,10,0-3 hrs
+U973,30,Female,7.9,5,8,1,3,LinkedIn,8,6-9 hrs
+U974,45,Female,5.2,6,8,3,4,Facebook,7,3-6 hrs
+U975,30,Male,4.7,7,8,1,5,YouTube,7,3-6 hrs
+U976,21,Female,3.8,9,5,3,2,X (Twitter),9,3-6 hrs
+U977,42,Male,3.1,8,6,1,3,YouTube,9,3-6 hrs
+U978,37,Female,3.1,8,4,0,0,Facebook,10,3-6 hrs
+U979,40,Male,4.0,6,7,2,2,Facebook,10,3-6 hrs
+U980,30,Female,3.8,8,6,3,2,LinkedIn,8,3-6 hrs
+U981,21,Male,4.4,5,7,4,3,YouTube,7,3-6 hrs
+U982,49,Male,5.0,5,7,6,3,YouTube,8,3-6 hrs
+U983,33,Female,5.8,4,7,0,3,LinkedIn,5,3-6 hrs
+U984,37,Male,5.6,7,7,6,1,TikTok,9,3-6 hrs
+U985,18,Female,3.2,7,6,4,3,TikTok,9,3-6 hrs
+U986,48,Male,5.3,6,4,4,4,TikTok,10,3-6 hrs
+U987,29,Female,5.2,7,6,1,6,YouTube,10,3-6 hrs
+U988,47,Female,4.9,6,7,1,6,Instagram,10,3-6 hrs
+U989,18,Female,5.7,8,7,0,2,Facebook,8,3-6 hrs
+U990,30,Female,6.5,6,8,6,2,TikTok,7,6-9 hrs
+U991,37,Female,4.5,7,6,3,2,X (Twitter),9,3-6 hrs
+U992,37,Male,5.2,7,7,5,1,TikTok,7,3-6 hrs
+U993,42,Male,6.3,5,7,1,2,Instagram,8,6-9 hrs
+U994,41,Male,4.9,6,5,5,5,YouTube,10,3-6 hrs
+U995,31,Male,5.4,5,9,6,2,Instagram,7,3-6 hrs
+U996,43,Male,6.0,5,8,4,1,YouTube,7,6-9 hrs
+U997,46,Male,5.3,6,6,4,4,Instagram,9,3-6 hrs
+U998,26,Female,5.2,5,5,4,0,TikTok,10,3-6 hrs
+U999,44,Female,5.7,6,6,1,3,LinkedIn,7,3-6 hrs
+U1000,16,Female,7.2,4,9,6,0,X (Twitter),6,6-9 hrs
+U1001,41,Male,6.3,4,6,7,2,LinkedIn,8,6-9 hrs
+U1002,28,Female,7.2,5,8,4,4,Facebook,7,6-9 hrs
+U1003,47,Female,3.9,9,6,4,3,YouTube,9,3-6 hrs
+U1004,46,Female,5.1,7,7,0,7,Instagram,10,3-6 hrs
+U1005,18,Male,2.7,8,6,2,1,LinkedIn,9,0-3 hrs
+U1006,31,Female,5.9,7,5,4,6,Instagram,10,3-6 hrs
+U1007,41,Female,7.9,4,9,3,3,TikTok,6,6-9 hrs
+U1008,47,Male,6.0,6,7,6,1,Facebook,8,6-9 hrs
+U1009,46,Male,7.9,5,8,3,2,Facebook,9,6-9 hrs
+U1010,39,Male,5.1,5,6,3,5,Facebook,8,3-6 hrs
+U1011,18,Female,6.6,6,5,4,2,Facebook,9,6-9 hrs
+U1012,21,Female,4.4,6,7,3,1,LinkedIn,9,3-6 hrs
+U1013,34,Male,5.5,6,6,4,1,Instagram,9,3-6 hrs
+U1014,22,Other,4.6,3,6,6,2,Facebook,9,3-6 hrs
+U1015,34,Male,3.0,7,5,4,0,X (Twitter),10,3-6 hrs
+U1016,44,Male,4.0,8,6,6,2,Instagram,10,3-6 hrs
+U1017,39,Female,6.4,6,7,3,3,LinkedIn,7,6-9 hrs
+U1018,18,Other,5.5,7,8,3,2,X (Twitter),9,3-6 hrs
+U1019,39,Female,6.6,5,5,5,0,Instagram,10,6-9 hrs
+U1020,35,Female,5.3,5,5,6,1,YouTube,10,3-6 hrs
+U1021,34,Female,5.5,5,6,6,3,TikTok,8,3-6 hrs
+U1022,28,Male,2.8,9,4,4,3,Instagram,10,0-3 hrs
+U1023,18,Female,7.2,7,10,7,1,YouTube,8,6-9 hrs
+U1024,16,Male,3.7,7,4,4,4,TikTok,10,3-6 hrs
+U1025,26,Male,6.7,7,8,5,4,LinkedIn,8,6-9 hrs
+U1026,24,Male,5.8,6,8,7,0,YouTube,6,3-6 hrs
+U1027,18,Other,5.8,7,7,4,3,TikTok,7,3-6 hrs
+U1028,34,Male,7.3,6,6,2,3,X (Twitter),8,6-9 hrs
+U1029,37,Male,7.4,5,7,4,4,TikTok,10,6-9 hrs
+U1030,32,Male,5.3,6,8,6,2,Facebook,7,3-6 hrs
+U1031,17,Male,9.0,4,10,7,4,TikTok,4,9-12 hrs
+U1032,39,Female,2.9,7,2,1,0,Facebook,10,0-3 hrs
+U1033,28,Male,3.9,8,5,5,4,YouTube,10,3-6 hrs
+U1034,32,Male,6.1,5,6,3,0,Facebook,10,6-9 hrs
+U1035,27,Female,7.2,7,8,3,2,Facebook,6,6-9 hrs
+U1036,44,Male,3.0,9,6,4,1,TikTok,9,3-6 hrs
+U1037,21,Male,4.2,5,6,4,3,YouTube,7,3-6 hrs
+U1038,18,Male,2.0,9,4,4,1,LinkedIn,9,0-3 hrs
+U1039,17,Male,5.5,6,6,4,1,LinkedIn,9,3-6 hrs
+U1040,31,Male,8.0,6,9,2,2,Instagram,5,6-9 hrs
+U1041,19,Male,6.0,6,6,4,3,TikTok,8,6-9 hrs
+U1042,47,Male,5.4,6,6,3,4,Instagram,9,3-6 hrs
+U1043,48,Female,6.5,4,6,2,2,TikTok,7,6-9 hrs
+U1044,37,Female,7.9,4,8,5,2,LinkedIn,7,6-9 hrs
+U1045,45,Female,5.5,7,6,1,3,LinkedIn,7,3-6 hrs
+U1046,25,Female,2.0,9,4,5,3,X (Twitter),10,0-3 hrs
+U1047,47,Female,2.4,6,7,6,5,LinkedIn,10,0-3 hrs
+U1048,37,Male,6.7,6,8,1,5,Facebook,8,6-9 hrs
+U1049,40,Female,4.0,7,6,1,3,X (Twitter),10,3-6 hrs
+U1050,31,Female,3.9,8,6,0,4,X (Twitter),9,3-6 hrs
+U1051,16,Male,5.5,6,6,4,1,Instagram,9,3-6 hrs
+U1052,34,Female,1.6,9,7,2,3,LinkedIn,10,0-3 hrs
+U1053,27,Other,4.2,7,7,3,1,X (Twitter),8,3-6 hrs
+U1054,37,Female,4.3,7,5,3,1,X (Twitter),9,3-6 hrs
+U1055,45,Female,5.5,5,6,1,4,LinkedIn,7,3-6 hrs
+U1056,45,Male,7.7,6,9,2,6,TikTok,6,6-9 hrs
+U1057,48,Male,6.9,4,6,4,2,YouTube,7,6-9 hrs
+U1058,43,Male,4.3,8,6,6,2,Instagram,10,3-6 hrs
+U1059,26,Male,10.7,2,10,3,2,X (Twitter),5,9-12 hrs
+U1060,44,Female,6.5,5,7,2,2,Instagram,7,6-9 hrs
+U1061,30,Female,6.7,6,8,6,2,TikTok,8,6-9 hrs
+U1062,31,Male,7.6,5,8,2,3,Facebook,7,6-9 hrs
+U1063,34,Male,4.3,8,5,3,2,TikTok,10,3-6 hrs
+U1064,41,Male,2.4,8,5,6,3,Instagram,9,0-3 hrs
+U1065,30,Male,5.3,7,9,3,5,YouTube,7,3-6 hrs
+U1066,17,Male,9.2,4,9,7,4,TikTok,4,9-12 hrs
+U1067,46,Female,3.8,6,5,3,1,YouTube,10,3-6 hrs
+U1068,33,Male,8.2,4,8,5,4,X (Twitter),6,6-9 hrs
+U1069,23,Male,3.2,10,3,2,1,YouTube,10,3-6 hrs
+U1070,30,Male,6.6,6,7,2,1,X (Twitter),10,6-9 hrs
+U1071,33,Female,6.9,4,8,5,1,X (Twitter),8,6-9 hrs
+U1072,47,Male,6.2,4,7,2,5,Instagram,7,6-9 hrs
+U1073,47,Female,6.8,5,8,2,2,LinkedIn,7,6-9 hrs
+U1074,37,Female,3.7,8,6,3,0,LinkedIn,10,3-6 hrs
+U1075,48,Male,5.6,6,7,1,4,Facebook,10,3-6 hrs
+U1076,28,Female,9.0,3,10,2,3,TikTok,4,9-12 hrs
+U1077,29,Female,5.1,7,5,4,0,LinkedIn,9,3-6 hrs
+U1078,48,Male,5.6,7,7,3,1,Instagram,8,3-6 hrs
+U1079,44,Female,4.7,3,8,2,1,Facebook,8,3-6 hrs
+U1080,39,Female,6.6,5,6,4,0,Instagram,10,6-9 hrs
+U1081,40,Female,4.5,8,6,3,3,TikTok,9,3-6 hrs
+U1082,37,Female,6.1,7,6,7,5,LinkedIn,10,6-9 hrs
+U1083,34,Male,7.8,5,9,2,2,YouTube,7,6-9 hrs
+U1084,16,Male,7.3,7,8,3,2,Instagram,7,6-9 hrs
+U1085,48,Female,6.9,5,9,4,1,Facebook,6,6-9 hrs
+U1086,26,Male,8.2,4,8,5,2,Facebook,7,6-9 hrs
+U1087,47,Male,3.0,6,5,4,3,YouTube,10,3-6 hrs
+U1088,45,Male,6.4,7,9,0,3,LinkedIn,6,6-9 hrs
+U1089,32,Male,7.2,5,7,1,2,YouTube,8,6-9 hrs
+U1090,48,Male,6.2,5,7,6,1,YouTube,9,6-9 hrs
+U1091,42,Male,4.7,7,7,0,2,TikTok,9,3-6 hrs
+U1092,45,Male,6.5,4,9,6,4,YouTube,8,6-9 hrs
+U1093,41,Female,4.6,8,7,5,5,LinkedIn,8,3-6 hrs
+U1094,27,Female,6.4,3,8,0,3,TikTok,5,6-9 hrs
+U1095,17,Male,5.4,6,5,4,2,LinkedIn,9,3-6 hrs
+U1096,36,Female,4.2,7,6,5,1,X (Twitter),9,3-6 hrs
+U1097,24,Male,5.9,7,7,1,2,Instagram,8,3-6 hrs
+U1098,49,Male,6.7,6,8,1,4,Instagram,8,6-9 hrs
+U1099,45,Female,5.8,9,6,1,4,Facebook,9,3-6 hrs
+U1100,30,Female,6.0,6,6,4,6,Instagram,10,6-9 hrs
+U1101,43,Male,4.5,7,6,3,4,LinkedIn,10,3-6 hrs
+U1102,47,Female,6.2,6,9,7,2,X (Twitter),9,6-9 hrs
+U1103,24,Male,2.6,10,5,6,5,X (Twitter),10,0-3 hrs
+U1104,28,Female,6.9,4,8,4,3,Facebook,8,6-9 hrs
+U1105,39,Male,5.1,5,7,4,5,Facebook,8,3-6 hrs
+U1106,39,Female,6.2,6,7,2,2,Instagram,7,6-9 hrs
+U1107,21,Male,8.2,5,7,5,3,Instagram,7,6-9 hrs
+U1108,36,Female,4.3,7,6,5,2,X (Twitter),9,3-6 hrs
+U1109,42,Female,5.6,8,6,5,1,TikTok,10,3-6 hrs
+U1110,44,Male,3.0,7,5,2,5,Facebook,10,3-6 hrs
+U1111,19,Female,4.6,4,4,2,1,LinkedIn,9,3-6 hrs
+U1112,37,Female,3.1,7,5,6,5,Facebook,9,3-6 hrs
+U1113,28,Male,3.9,7,6,2,3,TikTok,10,3-6 hrs
+U1114,42,Male,5.7,7,7,0,1,LinkedIn,10,3-6 hrs
+U1115,43,Female,6.7,6,6,0,1,Instagram,9,6-9 hrs
+U1116,32,Female,4.2,8,7,6,4,LinkedIn,9,3-6 hrs
+U1117,42,Male,7.1,4,8,7,4,Instagram,6,6-9 hrs
+U1118,27,Female,5.6,6,7,5,1,Facebook,8,3-6 hrs
+U1119,43,Female,5.9,7,7,3,3,LinkedIn,9,3-6 hrs
+U1120,28,Other,3.1,9,7,4,5,X (Twitter),10,3-6 hrs
+U1121,22,Female,3.4,8,6,4,3,X (Twitter),10,3-6 hrs
+U1122,41,Male,3.0,8,6,0,4,X (Twitter),10,3-6 hrs
+U1123,22,Female,6.5,6,10,2,2,TikTok,6,6-9 hrs
+U1124,26,Male,4.0,9,5,3,3,Instagram,9,3-6 hrs
+U1125,17,Female,4.8,7,6,3,4,X (Twitter),10,3-6 hrs
+U1126,37,Female,7.7,5,8,6,2,LinkedIn,9,6-9 hrs
+U1127,24,Female,4.9,5,8,5,2,TikTok,7,3-6 hrs
+U1128,17,Female,4.9,8,7,1,5,YouTube,8,3-6 hrs
+U1129,33,Male,4.0,8,4,6,4,LinkedIn,10,3-6 hrs
+U1130,38,Female,6.5,7,7,3,2,LinkedIn,8,6-9 hrs
+U1131,20,Female,8.2,4,9,1,4,X (Twitter),6,6-9 hrs
+U1132,24,Male,4.1,7,5,1,0,X (Twitter),10,3-6 hrs
+U1133,21,Male,4.7,5,7,1,2,Instagram,7,3-6 hrs
+U1134,16,Male,6.9,7,8,3,0,Instagram,8,6-9 hrs
+U1135,25,Female,6.9,7,8,0,2,TikTok,9,6-9 hrs
+U1136,31,Female,3.7,8,8,0,0,LinkedIn,8,3-6 hrs
+U1137,38,Female,5.6,4,6,3,0,TikTok,9,3-6 hrs
+U1138,39,Male,7.7,3,9,1,3,Instagram,6,6-9 hrs
+U1139,43,Female,3.5,7,7,4,2,X (Twitter),10,3-6 hrs
+U1140,35,Male,4.6,7,8,3,4,Instagram,8,3-6 hrs
+U1141,34,Female,5.4,5,6,2,3,X (Twitter),9,3-6 hrs
+U1142,24,Female,4.8,6,7,6,2,TikTok,6,3-6 hrs
+U1143,45,Female,4.9,3,7,2,1,Facebook,8,3-6 hrs
+U1144,43,Female,5.4,7,6,5,2,Facebook,10,3-6 hrs
+U1145,20,Male,3.5,6,8,2,1,X (Twitter),9,3-6 hrs
+U1146,48,Male,7.2,6,8,5,2,Facebook,8,6-9 hrs
+U1147,16,Female,6.1,6,8,7,0,Facebook,7,6-9 hrs
+U1148,42,Female,5.9,6,8,3,3,X (Twitter),7,3-6 hrs
+U1149,46,Female,5.9,6,8,1,1,X (Twitter),5,3-6 hrs
+U1150,39,Female,4.3,6,8,3,3,TikTok,6,3-6 hrs
+U1151,29,Male,3.9,8,4,5,3,YouTube,10,3-6 hrs
+U1152,29,Male,5.5,7,5,0,2,X (Twitter),7,3-6 hrs
+U1153,32,Female,5.5,7,6,3,5,Instagram,10,3-6 hrs
+U1154,32,Female,6.7,6,7,0,4,Instagram,7,6-9 hrs
+U1155,48,Male,4.8,6,7,3,0,Instagram,8,3-6 hrs
+U1156,22,Other,4.9,3,6,5,2,Facebook,9,3-6 hrs
+U1157,30,Female,3.4,8,4,3,3,Facebook,9,3-6 hrs
+U1158,38,Female,7.0,3,8,4,2,Instagram,6,6-9 hrs
+U1159,49,Male,6.7,5,8,6,4,Instagram,8,6-9 hrs
+U1160,22,Male,3.8,6,6,0,2,YouTube,8,3-6 hrs
+U1161,16,Female,2.9,10,3,5,3,YouTube,10,0-3 hrs
+U1162,43,Male,4.1,7,5,3,1,Facebook,9,3-6 hrs
+U1163,48,Male,4.8,5,5,2,3,LinkedIn,8,3-6 hrs
+U1164,39,Female,6.6,7,7,0,2,Facebook,7,6-9 hrs
+U1165,21,Female,4.4,7,6,4,2,LinkedIn,10,3-6 hrs
+U1166,17,Male,1.6,9,3,0,2,X (Twitter),10,0-3 hrs
+U1167,29,Female,3.4,8,4,3,4,Facebook,10,3-6 hrs
+U1168,37,Female,3.5,7,5,5,4,Facebook,9,3-6 hrs
+U1169,48,Male,6.8,4,7,3,3,YouTube,7,6-9 hrs
+U1170,17,Female,5.7,8,6,0,2,Facebook,8,3-6 hrs
+U1171,33,Female,6.2,6,7,4,0,Facebook,9,6-9 hrs
+U1172,48,Male,5.4,4,6,2,3,LinkedIn,8,3-6 hrs
+U1173,47,Male,6.0,5,7,6,1,YouTube,9,6-9 hrs
+U1174,19,Male,3.0,8,4,6,2,TikTok,10,3-6 hrs
+U1175,29,Male,4.3,7,6,1,3,TikTok,10,3-6 hrs
+U1176,40,Male,7.4,3,8,6,1,Facebook,7,6-9 hrs
+U1177,19,Male,1.7,9,4,0,2,X (Twitter),9,0-3 hrs
+U1178,27,Female,4.4,5,7,6,5,Facebook,9,3-6 hrs
+U1179,36,Female,5.8,7,7,1,1,TikTok,8,3-6 hrs
+U1180,17,Female,5.5,7,6,2,4,LinkedIn,10,3-6 hrs
+U1181,31,Male,5.5,4,9,5,3,Instagram,7,3-6 hrs
+U1182,27,Male,3.5,7,6,6,4,Facebook,10,3-6 hrs
+U1183,40,Female,6.3,6,7,3,3,LinkedIn,7,6-9 hrs
+U1184,46,Male,5.2,8,8,5,5,YouTube,9,3-6 hrs
+U1185,43,Female,5.5,7,5,4,2,Facebook,9,3-6 hrs
+U1186,26,Female,9.0,3,8,2,1,Facebook,5,9-12 hrs
+U1187,49,Male,5.7,7,4,4,0,Instagram,10,3-6 hrs
+U1188,21,Male,7.7,5,9,2,3,Instagram,6,6-9 hrs
+U1189,36,Female,6.6,7,8,4,4,TikTok,8,6-9 hrs
+U1190,36,Female,6.5,7,6,6,2,YouTube,9,6-9 hrs
+U1191,41,Female,7.4,4,8,6,4,YouTube,6,6-9 hrs
+U1192,39,Female,6.6,4,6,2,2,Instagram,8,6-9 hrs
+U1193,47,Male,4.9,6,4,1,0,TikTok,9,3-6 hrs
+U1194,36,Female,5.4,7,6,3,0,Instagram,10,3-6 hrs
+U1195,44,Female,4.2,7,8,5,2,TikTok,10,3-6 hrs
+U1196,29,Female,2.9,8,4,2,2,LinkedIn,10,0-3 hrs
+U1197,45,Male,7.9,4,8,3,2,Facebook,9,6-9 hrs
+U1198,23,Female,4.8,8,7,4,5,LinkedIn,7,3-6 hrs
+U1199,22,Other,6.7,4,10,4,2,LinkedIn,7,6-9 hrs
+U1200,46,Female,6.6,6,8,4,4,X (Twitter),7,6-9 hrs
+U1201,42,Male,2.3,8,4,6,3,Instagram,10,0-3 hrs
+U1202,32,Male,4.8,7,5,1,2,LinkedIn,9,3-6 hrs
+U1203,36,Male,5.0,7,7,5,0,TikTok,8,3-6 hrs
+U1204,30,Male,6.8,3,10,4,3,TikTok,5,6-9 hrs
+U1205,47,Male,7.8,4,8,3,2,Facebook,9,6-9 hrs
+U1206,21,Male,5.1,7,5,4,4,X (Twitter),10,3-6 hrs
+U1207,44,Male,6.6,8,6,4,2,Facebook,10,6-9 hrs
+U1208,19,Male,2.4,9,2,0,0,LinkedIn,10,0-3 hrs
+U1209,17,Other,2.5,10,3,3,4,X (Twitter),10,0-3 hrs
+U1210,43,Female,3.7,7,7,4,2,X (Twitter),10,3-6 hrs
+U1211,38,Male,5.6,8,9,5,3,X (Twitter),8,3-6 hrs
+U1212,37,Other,5.3,4,7,3,2,Instagram,7,3-6 hrs
+U1213,40,Female,1.0,7,5,2,7,TikTok,10,0-3 hrs
+U1214,45,Female,6.2,6,6,2,1,Facebook,8,6-9 hrs
+U1215,19,Male,2.5,7,5,2,1,LinkedIn,8,0-3 hrs
+U1216,37,Female,3.3,9,4,0,1,Facebook,10,3-6 hrs
+U1217,22,Male,4.1,9,7,0,2,Facebook,9,3-6 hrs
+U1218,32,Male,9.4,3,9,2,3,Instagram,5,9-12 hrs
+U1219,41,Other,6.4,8,8,2,2,LinkedIn,10,6-9 hrs
+U1220,47,Female,6.4,3,5,2,3,TikTok,7,6-9 hrs
+U1221,31,Male,5.7,7,7,5,2,Facebook,8,3-6 hrs
+U1222,17,Male,4.0,9,7,5,0,X (Twitter),10,3-6 hrs
+U1223,16,Male,9.0,4,8,7,4,TikTok,4,9-12 hrs
+U1224,16,Male,6.5,8,6,6,2,LinkedIn,10,6-9 hrs
+U1225,27,Female,5.3,5,7,7,3,TikTok,9,3-6 hrs
+U1226,35,Male,1.6,9,4,6,3,Facebook,10,0-3 hrs
+U1227,16,Male,4.0,10,6,5,0,X (Twitter),9,3-6 hrs
+U1228,34,Female,5.4,4,5,4,3,X (Twitter),10,3-6 hrs
+U1229,16,Female,5.2,7,7,3,3,TikTok,10,3-6 hrs
+U1230,18,Male,6.9,5,5,1,0,LinkedIn,8,6-9 hrs
+U1231,25,Male,6.9,7,6,5,3,LinkedIn,7,6-9 hrs
+U1232,47,Female,6.5,5,6,2,2,LinkedIn,8,6-9 hrs
+U1233,27,Other,4.2,7,8,3,2,X (Twitter),9,3-6 hrs
+U1234,43,Male,6.1,5,7,4,1,YouTube,7,6-9 hrs
+U1235,27,Female,4.6,5,7,6,5,Facebook,9,3-6 hrs
+U1236,32,Female,4.3,8,8,5,2,LinkedIn,7,3-6 hrs
+U1237,24,Male,9.2,4,9,0,3,YouTube,6,9-12 hrs
+U1238,38,Female,4.4,8,5,7,1,X (Twitter),10,3-6 hrs
+U1239,19,Male,5.5,8,9,3,5,Instagram,7,3-6 hrs
+U1240,47,Male,3.7,9,6,1,0,X (Twitter),10,3-6 hrs
+U1241,36,Male,5.8,7,8,2,5,TikTok,9,3-6 hrs
+U1242,47,Female,11.1,6,10,2,3,Instagram,5,9-12 hrs
+U1243,25,Male,6.4,6,8,3,0,Facebook,8,6-9 hrs
+U1244,32,Female,6.5,5,6,4,1,Facebook,9,6-9 hrs
+U1245,17,Female,2.6,9,5,6,4,YouTube,10,0-3 hrs
+U1246,41,Female,3.0,8,4,0,3,LinkedIn,10,3-6 hrs
+U1247,29,Male,2.5,10,4,3,3,Instagram,9,0-3 hrs
+U1248,17,Female,5.0,7,6,3,2,X (Twitter),9,3-6 hrs
+U1249,37,Female,4.6,9,6,3,1,YouTube,8,3-6 hrs
+U1250,35,Female,5.9,7,7,6,3,X (Twitter),8,3-6 hrs
+U1251,30,Female,8.0,5,8,0,2,LinkedIn,8,6-9 hrs
+U1252,23,Male,6.9,5,7,4,2,X (Twitter),10,6-9 hrs
+U1253,16,Other,5.4,6,6,4,3,TikTok,8,3-6 hrs
+U1254,19,Male,4.3,7,7,2,2,TikTok,10,3-6 hrs
+U1255,44,Female,5.6,8,7,5,3,Facebook,9,3-6 hrs
+U1256,27,Male,4.0,8,4,2,3,Instagram,10,3-6 hrs
+U1257,29,Male,3.8,8,6,2,3,TikTok,10,3-6 hrs
+U1258,41,Female,7.2,5,9,5,3,YouTube,5,6-9 hrs
+U1259,17,Female,7.1,4,8,6,0,X (Twitter),6,6-9 hrs
+U1260,31,Female,4.4,8,6,0,4,X (Twitter),8,3-6 hrs
+U1261,33,Female,3.8,6,5,3,1,Facebook,10,3-6 hrs
+U1262,35,Female,7.6,4,7,0,4,Facebook,8,6-9 hrs
+U1263,32,Male,4.4,7,6,1,2,LinkedIn,8,3-6 hrs
+U1264,48,Female,4.2,5,5,0,3,LinkedIn,10,3-6 hrs
+U1265,26,Female,3.7,9,6,5,3,LinkedIn,10,3-6 hrs
+U1266,16,Female,6.9,7,10,7,1,YouTube,8,6-9 hrs
+U1267,23,Male,2.9,8,4,7,5,X (Twitter),10,0-3 hrs
+U1268,48,Male,3.9,9,6,1,1,X (Twitter),10,3-6 hrs
+U1269,38,Female,6.9,5,5,5,0,Instagram,10,6-9 hrs
+U1270,36,Female,6.5,5,9,3,1,X (Twitter),7,6-9 hrs
+U1271,49,Male,6.2,5,6,4,3,LinkedIn,10,6-9 hrs
+U1272,41,Female,8.4,5,8,2,2,TikTok,6,6-9 hrs
+U1273,48,Female,3.9,5,5,0,2,LinkedIn,10,3-6 hrs
+U1274,42,Female,5.5,7,7,2,1,TikTok,10,3-6 hrs
+U1275,49,Male,7.3,5,7,3,4,X (Twitter),9,6-9 hrs
+U1276,16,Male,2.7,8,5,4,4,YouTube,10,0-3 hrs
+U1277,47,Male,3.7,8,5,1,0,X (Twitter),10,3-6 hrs
+U1278,45,Female,5.6,6,6,1,2,LinkedIn,7,3-6 hrs
+U1279,38,Male,5.2,7,9,5,3,X (Twitter),9,3-6 hrs
+U1280,45,Female,3.9,10,4,3,5,TikTok,10,3-6 hrs
+U1281,27,Male,4.9,6,7,0,2,Instagram,9,3-6 hrs
+U1282,35,Female,6.0,7,7,4,5,X (Twitter),7,6-9 hrs
+U1283,31,Female,3.3,7,4,3,3,Facebook,9,3-6 hrs
+U1284,39,Female,6.8,5,8,3,2,Instagram,8,6-9 hrs
+U1285,23,Female,4.8,7,7,5,5,LinkedIn,7,3-6 hrs
+U1286,49,Male,6.0,7,8,0,2,LinkedIn,9,6-9 hrs
+U1287,45,Male,1.7,10,5,6,0,Facebook,10,0-3 hrs
+U1288,23,Male,4.1,6,5,0,1,X (Twitter),10,3-6 hrs
+U1289,41,Male,5.0,7,7,5,3,TikTok,8,3-6 hrs
+U1290,42,Female,6.1,7,6,3,3,LinkedIn,7,6-9 hrs
+U1291,30,Female,6.0,5,10,3,1,YouTube,8,6-9 hrs
+U1292,22,Male,3.4,9,5,5,0,Facebook,10,3-6 hrs
+U1293,18,Female,6.0,8,6,0,2,Facebook,8,6-9 hrs
+U1294,49,Male,5.4,7,5,5,0,Instagram,10,3-6 hrs
+U1295,28,Female,3.3,6,6,0,3,YouTube,10,3-6 hrs
+U1296,41,Male,7.6,5,10,7,3,LinkedIn,7,6-9 hrs
+U1297,18,Male,3.1,9,5,0,3,Instagram,10,3-6 hrs
+U1298,18,Male,7.3,7,8,2,1,Instagram,8,6-9 hrs
+U1299,28,Other,2.9,9,6,4,5,X (Twitter),10,0-3 hrs
+U1300,24,Female,5.1,6,7,5,2,TikTok,7,3-6 hrs
+U1301,30,Female,7.8,5,8,0,2,LinkedIn,8,6-9 hrs
+U1302,38,Female,6.7,5,7,2,2,Instagram,7,6-9 hrs
+U1303,30,Male,5.0,6,6,0,5,X (Twitter),8,3-6 hrs
+U1304,32,Other,4.6,8,5,5,0,X (Twitter),10,3-6 hrs
+U1305,24,Male,1.6,9,3,2,3,TikTok,10,0-3 hrs
+U1306,41,Male,4.0,5,7,0,1,Facebook,10,3-6 hrs
+U1307,18,Male,4.5,7,8,3,4,TikTok,10,3-6 hrs
+U1308,45,Female,3.4,7,4,3,3,YouTube,10,3-6 hrs
+U1309,17,Female,7.0,5,8,6,0,X (Twitter),6,6-9 hrs
+U1310,17,Male,7.1,7,7,3,1,Instagram,7,6-9 hrs
+U1311,38,Female,9.8,2,9,3,2,Facebook,5,9-12 hrs
+U1312,22,Other,4.5,3,6,5,2,Facebook,9,3-6 hrs
+U1313,44,Male,6.4,6,8,0,1,LinkedIn,7,6-9 hrs
+U1314,33,Male,6.1,6,8,7,3,X (Twitter),6,6-9 hrs
+U1315,32,Male,6.1,5,6,4,3,Instagram,7,6-9 hrs
+U1316,38,Male,6.4,6,7,0,3,Facebook,8,6-9 hrs
+U1317,36,Male,7.6,5,7,4,1,LinkedIn,8,6-9 hrs
+U1318,47,Female,3.8,8,4,2,4,LinkedIn,10,3-6 hrs
+U1319,18,Female,5.9,8,6,1,2,Facebook,8,3-6 hrs
+U1320,42,Female,5.4,8,6,5,1,TikTok,10,3-6 hrs
+U1321,48,Male,6.5,5,7,3,3,TikTok,8,6-9 hrs
+U1322,38,Female,5.1,7,6,5,0,Instagram,9,3-6 hrs
+U1323,47,Female,6.9,5,6,2,4,TikTok,7,6-9 hrs
+U1324,22,Other,5.4,7,5,5,1,YouTube,9,3-6 hrs
+U1325,44,Female,4.6,8,6,1,3,Facebook,9,3-6 hrs
+U1326,29,Male,6.2,8,7,3,2,Facebook,7,6-9 hrs
+U1327,38,Male,5.3,7,6,2,1,LinkedIn,10,3-6 hrs
+U1328,20,Female,4.6,5,6,2,1,LinkedIn,10,3-6 hrs
+U1329,24,Male,4.1,7,4,0,2,X (Twitter),10,3-6 hrs
+U1330,38,Male,4.4,7,8,5,0,YouTube,9,3-6 hrs
+U1331,26,Female,4.8,6,6,1,3,LinkedIn,7,3-6 hrs
+U1332,21,Male,3.3,8,4,7,1,TikTok,10,3-6 hrs
+U1333,22,Male,3.5,9,4,2,0,YouTube,10,3-6 hrs
+U1334,38,Female,7.0,5,8,1,2,YouTube,9,6-9 hrs
+U1335,38,Female,3.6,9,4,1,0,Facebook,10,3-6 hrs
+U1336,23,Male,4.1,8,5,6,3,LinkedIn,9,3-6 hrs
+U1337,26,Female,7.9,4,8,2,0,TikTok,7,6-9 hrs
+U1338,42,Male,4.8,7,5,5,4,YouTube,10,3-6 hrs
+U1339,19,Male,5.1,7,6,1,3,Facebook,10,3-6 hrs
+U1340,21,Male,5.1,6,5,4,4,X (Twitter),9,3-6 hrs
+U1341,45,Male,4.7,8,6,5,2,Instagram,10,3-6 hrs
+U1342,39,Male,4.8,5,7,4,4,Facebook,8,3-6 hrs
+U1343,25,Male,4.3,8,7,5,2,X (Twitter),7,3-6 hrs
+U1344,38,Female,1.5,8,4,6,4,LinkedIn,10,0-3 hrs
+U1345,43,Female,5.4,7,6,5,2,TikTok,10,3-6 hrs
+U1346,27,Male,5.6,5,7,2,1,TikTok,7,3-6 hrs
+U1347,36,Female,6.9,4,7,5,1,X (Twitter),8,6-9 hrs
+U1348,24,Male,3.8,5,6,6,2,X (Twitter),10,3-6 hrs
+U1349,31,Other,2.7,9,5,0,2,YouTube,10,0-3 hrs
+U1350,40,Female,6.1,7,8,4,4,TikTok,8,6-9 hrs
+U1351,41,Male,7.4,5,10,7,3,LinkedIn,8,6-9 hrs
+U1352,47,Female,3.3,8,6,0,1,Instagram,10,3-6 hrs
+U1353,23,Male,6.9,5,8,3,3,X (Twitter),10,6-9 hrs
+U1354,48,Male,5.4,7,7,1,2,Facebook,8,3-6 hrs
+U1355,31,Male,5.7,6,8,6,1,Facebook,7,3-6 hrs
+U1356,45,Female,5.6,6,7,0,4,LinkedIn,7,3-6 hrs
+U1357,43,Female,5.7,5,8,2,2,X (Twitter),7,3-6 hrs
+U1358,43,Male,4.9,9,7,0,2,TikTok,9,3-6 hrs
+U1359,40,Male,4.3,6,4,5,2,TikTok,10,3-6 hrs
+U1360,48,Male,4.0,8,5,1,0,X (Twitter),10,3-6 hrs
+U1361,47,Female,4.0,8,3,2,4,Facebook,10,3-6 hrs
+U1362,23,Male,4.5,7,4,6,4,LinkedIn,10,3-6 hrs
+U1363,37,Male,4.5,10,7,1,2,LinkedIn,7,3-6 hrs
+U1364,39,Male,3.4,9,8,7,3,LinkedIn,10,3-6 hrs
+U1365,47,Female,6.8,6,7,3,2,X (Twitter),8,6-9 hrs
+U1366,43,Male,5.9,6,6,3,3,LinkedIn,8,3-6 hrs
+U1367,27,Female,6.1,3,8,0,3,TikTok,5,6-9 hrs
+U1368,23,Female,4.9,7,8,5,5,LinkedIn,8,3-6 hrs
+U1369,48,Female,4.7,8,6,5,1,LinkedIn,10,3-6 hrs
+U1370,16,Other,6.8,6,7,1,1,Instagram,9,6-9 hrs
+U1371,24,Male,7.1,6,7,6,0,TikTok,7,6-9 hrs
+U1372,28,Male,4.2,6,4,0,4,YouTube,10,3-6 hrs
+U1373,39,Male,4.3,9,6,1,2,TikTok,9,3-6 hrs
+U1374,49,Male,6.7,5,7,0,3,Instagram,8,6-9 hrs
+U1375,26,Male,4.5,5,6,0,1,Instagram,8,3-6 hrs
+U1376,21,Other,4.8,3,5,5,2,Facebook,10,3-6 hrs
+U1377,42,Male,5.5,7,6,0,1,LinkedIn,9,3-6 hrs
+U1378,19,Female,8.0,6,9,1,5,X (Twitter),7,6-9 hrs
+U1379,34,Male,7.2,7,6,2,3,X (Twitter),9,6-9 hrs
+U1380,18,Male,4.8,5,5,1,1,Facebook,10,3-6 hrs
+U1381,32,Male,9.1,3,9,2,3,Instagram,6,9-12 hrs
+U1382,35,Female,5.3,7,6,4,2,X (Twitter),9,3-6 hrs
+U1383,41,Male,5.9,7,7,0,1,LinkedIn,9,3-6 hrs
+U1384,35,Female,4.2,7,7,5,1,X (Twitter),9,3-6 hrs
+U1385,47,Male,4.6,6,5,2,3,TikTok,10,3-6 hrs
+U1386,26,Female,9.3,3,8,2,1,Facebook,7,9-12 hrs
+U1387,26,Male,4.1,5,5,5,1,X (Twitter),9,3-6 hrs
+U1388,49,Female,5.0,7,8,3,3,LinkedIn,9,3-6 hrs
+U1389,40,Male,4.7,5,6,1,2,X (Twitter),9,3-6 hrs
+U1390,34,Female,7.0,4,9,3,1,X (Twitter),7,6-9 hrs
+U1391,36,Male,7.5,6,8,3,0,LinkedIn,8,6-9 hrs
+U1392,44,Male,3.0,7,6,1,4,Facebook,10,3-6 hrs
+U1393,26,Male,7.8,4,7,1,2,Instagram,8,6-9 hrs
+U1394,43,Male,6.2,5,5,4,1,Instagram,10,6-9 hrs
+U1395,25,Male,8.4,5,8,2,3,TikTok,8,6-9 hrs
+U1396,32,Female,3.9,8,5,0,4,X (Twitter),10,3-6 hrs
+U1397,41,Male,3.1,6,7,1,3,YouTube,9,3-6 hrs
+U1398,48,Female,3.7,6,5,1,3,LinkedIn,10,3-6 hrs
+U1399,34,Female,5.1,6,6,6,4,TikTok,8,3-6 hrs
+U1400,37,Male,4.2,6,6,2,1,TikTok,9,3-6 hrs
+U1401,46,Male,7.8,4,8,3,1,Facebook,9,6-9 hrs
+U1402,40,Female,6.1,8,7,4,4,TikTok,8,6-9 hrs
+U1403,43,Male,4.2,7,7,2,4,LinkedIn,9,3-6 hrs
+U1404,40,Female,5.7,8,6,2,3,LinkedIn,9,3-6 hrs
+U1405,36,Female,4.1,7,6,3,2,X (Twitter),10,3-6 hrs
+U1406,18,Other,2.5,8,3,4,5,X (Twitter),10,0-3 hrs
+U1407,34,Male,7.0,6,7,2,3,X (Twitter),8,6-9 hrs
+U1408,19,Male,7.9,5,9,1,4,Instagram,5,6-9 hrs
+U1409,34,Male,7.2,6,5,2,3,X (Twitter),8,6-9 hrs
+U1410,48,Female,5.7,7,8,2,2,LinkedIn,9,3-6 hrs
+U1411,31,Female,7.1,5,6,4,4,YouTube,9,6-9 hrs
+U1412,16,Female,5.2,7,7,4,2,Facebook,10,3-6 hrs
+U1413,22,Male,5.9,6,8,3,2,X (Twitter),7,3-6 hrs
+U1414,46,Male,4.8,6,6,4,0,YouTube,8,3-6 hrs
+U1415,17,Female,9.5,5,9,4,1,LinkedIn,6,9-12 hrs
+U1416,49,Female,9.8,1,10,3,2,TikTok,4,9-12 hrs
+U1417,48,Female,6.9,6,9,4,1,X (Twitter),8,6-9 hrs
+U1418,45,Female,5.9,9,8,2,3,Facebook,9,3-6 hrs
+U1419,27,Male,6.5,6,7,4,0,Facebook,8,6-9 hrs
+U1420,36,Female,4.3,8,6,3,2,YouTube,8,3-6 hrs
+U1421,47,Male,6.5,4,7,6,1,YouTube,9,6-9 hrs
+U1422,37,Male,6.8,7,6,5,4,TikTok,10,6-9 hrs
+U1423,17,Female,9.5,3,8,1,2,YouTube,5,9-12 hrs
+U1424,40,Male,4.6,8,5,4,0,YouTube,9,3-6 hrs
+U1425,44,Female,5.0,4,7,2,0,Facebook,7,3-6 hrs
+U1426,49,Male,6.0,5,8,1,4,LinkedIn,8,6-9 hrs
+U1427,45,Male,7.4,6,9,2,6,TikTok,6,6-9 hrs
+U1428,39,Female,5.7,4,7,3,0,Facebook,8,3-6 hrs
+U1429,17,Male,2.0,10,4,3,2,LinkedIn,10,0-3 hrs
+U1430,43,Male,5.8,6,7,4,4,LinkedIn,9,3-6 hrs
+U1431,44,Male,2.8,6,6,1,5,Facebook,10,0-3 hrs
+U1432,27,Other,3.4,9,6,4,5,X (Twitter),10,3-6 hrs
+U1433,31,Female,6.7,6,9,6,3,TikTok,7,6-9 hrs
+U1434,47,Male,4.4,8,8,6,1,YouTube,8,3-6 hrs
+U1435,18,Female,7.5,3,7,3,2,X (Twitter),5,6-9 hrs
+U1436,17,Male,7.1,8,7,3,1,Instagram,7,6-9 hrs
+U1437,20,Male,4.3,5,5,5,3,YouTube,6,3-6 hrs
+U1438,17,Female,9.4,3,10,2,1,YouTube,4,9-12 hrs
+U1439,18,Male,7.3,5,8,1,1,YouTube,7,6-9 hrs
+U1440,37,Other,5.4,5,7,4,2,Instagram,9,3-6 hrs
+U1441,44,Male,6.5,7,7,4,2,Facebook,9,6-9 hrs
+U1442,32,Female,3.2,7,6,3,1,Facebook,9,3-6 hrs
+U1443,41,Male,3.1,7,6,0,4,X (Twitter),10,3-6 hrs
+U1444,26,Male,4.2,5,5,5,1,X (Twitter),8,3-6 hrs
+U1445,43,Male,3.8,8,5,5,1,LinkedIn,10,3-6 hrs
+U1446,28,Female,7.7,5,8,3,3,Facebook,5,6-9 hrs
+U1447,28,Male,3.0,10,4,5,4,Instagram,10,3-6 hrs
+U1448,18,Female,5.4,7,5,3,4,LinkedIn,10,3-6 hrs
+U1449,27,Other,3.5,9,6,4,5,X (Twitter),10,3-6 hrs
+U1450,24,Female,7.6,6,7,1,4,Instagram,9,6-9 hrs
+U1451,42,Female,5.8,8,5,5,3,TikTok,9,3-6 hrs
+U1452,25,Male,8.8,5,8,3,3,TikTok,8,6-9 hrs
+U1453,26,Male,6.8,5,8,4,0,Facebook,7,6-9 hrs
+U1454,16,Male,3.9,10,5,5,0,X (Twitter),10,3-6 hrs
+U1455,47,Female,2.9,8,4,0,2,Instagram,10,0-3 hrs
+U1456,39,Male,6.4,5,6,0,5,Facebook,8,6-9 hrs
+U1457,16,Male,3.5,7,5,5,4,TikTok,10,3-6 hrs
+U1458,48,Male,5.2,6,4,2,0,TikTok,9,3-6 hrs
+U1459,36,Female,1.9,8,4,5,0,Facebook,9,0-3 hrs
+U1460,35,Female,5.3,6,7,3,2,X (Twitter),10,3-6 hrs
+U1461,18,Female,2.0,9,3,6,4,YouTube,10,0-3 hrs
+U1462,29,Male,7.5,5,7,5,1,X (Twitter),9,6-9 hrs
+U1463,36,Female,4.7,9,6,3,1,YouTube,10,3-6 hrs
+U1464,17,Female,5.0,7,6,3,3,X (Twitter),10,3-6 hrs
+U1465,34,Male,4.1,7,6,7,5,TikTok,10,3-6 hrs
+U1466,36,Female,7.8,4,7,5,2,LinkedIn,9,6-9 hrs
+U1467,43,Male,4.9,8,8,0,2,TikTok,9,3-6 hrs
+U1468,35,Female,5.0,7,6,3,0,Facebook,10,3-6 hrs
+U1469,46,Male,8.5,4,9,3,2,Facebook,9,6-9 hrs
+U1470,33,Male,5.0,5,6,3,3,LinkedIn,10,3-6 hrs
+U1471,43,Male,6.0,6,6,4,1,Instagram,9,6-9 hrs
+U1472,35,Female,5.6,6,6,3,1,X (Twitter),9,3-6 hrs
+U1473,34,Male,7.7,6,8,4,2,Instagram,7,6-9 hrs
+U1474,24,Male,8.7,6,9,1,2,YouTube,6,6-9 hrs
+U1475,38,Male,5.7,7,9,5,3,X (Twitter),9,3-6 hrs
+U1476,18,Male,6.5,5,7,2,3,Facebook,9,6-9 hrs
+U1477,42,Other,6.9,7,7,2,2,LinkedIn,9,6-9 hrs
+U1478,38,Female,3.6,9,4,0,0,Facebook,10,3-6 hrs
+U1479,35,Female,7.2,6,8,3,5,YouTube,8,6-9 hrs
+U1480,23,Female,6.3,6,9,5,1,TikTok,7,6-9 hrs
+U1481,44,Male,3.0,9,5,5,1,TikTok,10,3-6 hrs
+U1482,32,Female,5.8,4,8,0,3,LinkedIn,6,3-6 hrs
+U1483,24,Male,4.3,8,7,6,2,Instagram,10,3-6 hrs
+U1484,31,Female,6.8,5,6,2,5,YouTube,8,6-9 hrs
+U1485,34,Female,5.1,6,5,6,3,TikTok,7,3-6 hrs
+U1486,40,Male,6.1,4,6,7,3,LinkedIn,8,6-9 hrs
+U1487,38,Female,6.4,6,8,0,2,Facebook,7,6-9 hrs
+U1488,38,Male,4.6,7,7,2,1,TikTok,9,3-6 hrs
+U1489,49,Male,6.0,5,6,5,3,LinkedIn,9,6-9 hrs
+U1490,32,Male,9.2,2,10,2,3,Instagram,5,9-12 hrs
+U1491,36,Female,3.7,7,5,3,1,Facebook,8,3-6 hrs
+U1492,49,Male,5.8,7,8,0,3,Facebook,9,3-6 hrs
+U1493,35,Female,6.9,4,7,5,1,X (Twitter),8,6-9 hrs
+U1494,36,Female,6.3,6,8,6,4,Facebook,9,6-9 hrs
+U1495,38,Female,7.1,4,8,3,2,Instagram,6,6-9 hrs
+U1496,46,Male,4.6,7,7,5,2,YouTube,7,3-6 hrs
+U1497,30,Male,6.4,4,8,5,3,TikTok,5,6-9 hrs
+U1498,38,Male,5.5,7,6,2,1,LinkedIn,10,3-6 hrs
+U1499,32,Female,3.6,7,5,3,1,Facebook,10,3-6 hrs
+U1500,20,Female,5.2,5,5,1,1,LinkedIn,8,3-6 hrs

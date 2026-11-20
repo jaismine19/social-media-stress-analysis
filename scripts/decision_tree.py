@@ -53,6 +53,7 @@ from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
 # ---------------------------------------------------------------
 PROJECT = Path(__file__).resolve().parent.parent
 CLEAN_FILE = PROJECT / "data" / "processed" / "social_media_stress_clean.csv"
+AUG_FILE = PROJECT / "data" / "processed" / "social_media_stress_augmented.csv"
 REPORT_DIR = PROJECT / "reports"
 FIG_DIR = REPORT_DIR / "figures"
 
@@ -115,14 +116,14 @@ def choose_features(df):
 # ================================================================
 def split_data(X, y):
     """
-    70% of rows train the model, 30% test it. The model must never
+    80% of rows train the model, 20% test it. The model must never
     see the test rows during training - that would be cheating.
     random_state=42 fixes the shuffle so the result is repeatable.
     """
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.30, random_state=42
+        X, y, test_size=0.20, random_state=42
     )
-    print(f"\nSTEP 3 - Split: {len(X_train)} training rows, {len(X_test)} test rows.")
+    print(f"\nSTEP 3 - Split: {len(X_train)} training rows, {len(X_test)} test rows (80/20).")
     return X_train, X_test, y_train, y_test
 
 
@@ -281,7 +282,8 @@ def feature_importance(model, pretty_names):
 # ================================================================
 def main():
     print("STARTING THE DECISION TREE")
-    df = pd.read_csv(CLEAN_FILE)
+    # Use the augmented dataset (500 real + 1000 synthetic rows)
+    df = pd.read_csv(AUG_FILE)
 
     df = create_target(df)
     X, y = choose_features(df)

@@ -37,13 +37,14 @@ New rows are generated with **row-level bootstrap with jitter** (a non-parametri
 
 ## Model results on the augmented dataset (80/20 split, seed 42)
 
+The project uses exactly two models (per instructor): a decision tree and a single linear regression.
+
 | Model | Metric | Real data (500) | Augmented (1,500) |
 |-------|--------|-----------------|-------------------|
 | Decision Tree (entropy, depth 5) | Accuracy | 72.7% (70/30 split) | **72.7%** (baseline 59.3%) |
-| Linear Regression | R² / RMSE | 0.536 / 1.057 | 0.546 / 1.069 |
-| Tuned Random Forest | R² / RMSE | 0.521 / 1.074 | **0.734 / 0.819** |
+| Linear Regression | R² / RMSE | 0.536 / 1.057 | **0.546 / 1.069** |
 
-**Interpretation:** the story is unchanged — screen time remains the dominant predictor. With three times the data, the random forest now outperforms the linear model (it can use the extra, slightly noisy rows), while the tree's accuracy stays at 72.7%.
+**Interpretation:** the story is unchanged — screen time remains the dominant predictor. With three times the data the regression is slightly stronger and more stable (CV RMSE 1.091 ± 0.016), while the tree's accuracy stays at 72.7%.
 
 ## Honesty notes
 

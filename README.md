@@ -34,7 +34,7 @@ social-media-stress-analysis/
 │   ├── augment_data.py             # Data augmentation: 500 -> 1,500 rows (bootstrap + jitter)
 │   ├── eda.py                      # Full EDA: distributions, relationships, outliers
 │   ├── decision_tree.py            # Decision tree classification (80/20 split)
-│   └── regression.py               # Regression: predict stress score + clustering (80/20 split)
+│   └── regression.py               # Linear regression: predict the stress score (80/20 split)
 ├── reports/
 │   ├── data_cleaning_report.md     # Checks, changes, and anomalies
 │   ├── part1_data_preparation.md   # Data preparation summary
@@ -80,7 +80,7 @@ The cleaning pipeline reads `data/raw/`, performs the documented steps, and writ
 python3 scripts/eda.py              # EDA + charts -> reports/figures/
 python3 scripts/augment_data.py     # create the 1,500-row augmented dataset
 python3 scripts/decision_tree.py    # decision tree (80/20 split on augmented data)
-python3 scripts/regression.py       # regression + clustering (80/20 split on augmented data)
+python3 scripts/regression.py       # linear regression (80/20 split on augmented data)
 ```
 
 ## Cleaning summary
@@ -99,7 +99,7 @@ python3 scripts/regression.py       # regression + clustering (80/20 split on au
 
 - **Exploratory data analysis:** distributions, scatter plots, group comparisons, correlation heatmap
 - **Statistical analysis:** correlation tests, ANOVA / Kruskal-Wallis, heavy vs light user comparison
-- **Predictive modeling:** predict stress level, feature importance, user segmentation
+- **Predictive modeling:** classify stress (decision tree) and predict the stress score (linear regression)
 - **Final report & presentation:** synthesis of findings and recommendations
 
 ## License

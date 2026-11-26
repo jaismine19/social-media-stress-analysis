@@ -1,0 +1,5 @@
+Metric,Value
+Test RMSE (stress points),1.069
+Test R^2,0.546
+CV mean RMSE,1.091
+CV std RMSE,0.015

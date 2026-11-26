@@ -1,0 +1,13 @@
+Feature,Coefficient
+daily_screen_time_hours,0.635
+gender = Other,0.148
+social_media_platform = LinkedIn,0.08
+exercise_frequency_per_week,0.079
+social_media_platform = X (Twitter),0.064
+social_media_platform = TikTok,0.061
+social_media_platform = YouTube,0.06
+gender = Male,-0.052
+sleep_quality,-0.046
+social_media_platform = Instagram,-0.042
+days_without_social_media,0.014
+age,0.001

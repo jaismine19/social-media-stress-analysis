@@ -14,7 +14,7 @@ WHAT THIS SCRIPT DOES
 ---------------------
 A decision tree asks a chain of yes/no questions about the data
 (e.g. "is screen time above 5.75 hours?") until it can guess the
-stress class. We build TWO trees, compare them, keep the better one,
+stress class. We train ONE tree (entropy criterion, depth 5),
 draw it, and explain which questions matter most.
 
 IMPORTANT DESIGN CHOICES
@@ -291,36 +291,22 @@ def main():
 
     pre = build_preprocessor()
 
-    # Model A: gini, depth 4
-    model_a, y_pred_a, *_ = build_and_evaluate(
+    # THE model: entropy criterion, depth 5 (trained on the 80% split)
+    model, y_pred, *_ = build_and_evaluate(
         pre, X_train, X_test, y_train, y_test,
-        "Model A", criterion="gini", max_depth=4)
-
-    # Model B: entropy, depth 5
-    model_b, y_pred_b, *_ = build_and_evaluate(
-        pre, X_train, X_test, y_train, y_test,
-        "Model B", criterion="entropy", max_depth=5)
+        "Decision Tree", criterion="entropy", max_depth=5)
 
     baseline = majority_baseline(y_test)
 
-    # Pick the winner by F1 (best balance of precision and recall)
-    f1_a = f1_score(y_test, y_pred_a, average="weighted")
-    f1_b = f1_score(y_test, y_pred_b, average="weighted")
-    if f1_b >= f1_a:
-        best, y_pred_best, best_name = model_b, y_pred_b, "Model B (entropy, depth 5)"
-    else:
-        best, y_pred_best, best_name = model_a, y_pred_a, "Model A (gini, depth 4)"
-    print(f"\nWINNER: {best_name} (higher weighted F1)")
-
-    cm_table = show_confusion_matrix(y_test, y_pred_best)
-    pretty = draw_tree(best, f"Decision tree - {best_name}")
-    imp_df = feature_importance(best, pretty)
+    cm_table = show_confusion_matrix(y_test, y_pred)
+    pretty = draw_tree(model, "Decision tree (entropy, depth 5)")
+    imp_df = feature_importance(model, pretty)
 
     # Save result tables for the report
     summary = pd.DataFrame({
         "Metric": ["Test accuracy", "Weighted F1", "Majority baseline"],
-        "Value": [round(accuracy_score(y_test, y_pred_best), 4),
-                  round(f1_score(y_test, y_pred_best, average="weighted"), 4),
+        "Value": [round(accuracy_score(y_test, y_pred), 4),
+                  round(f1_score(y_test, y_pred, average="weighted"), 4),
                   round(baseline, 4)],
     })
     summary.to_csv(REPORT_DIR / "decision_tree_summary.csv", index=False)

@@ -16,3 +16,6 @@ GROUP_WORK_DIVISION.*
 
 # Archive / temp
 *.zip
+
+# Local-only progress reports (never push)
+ReportsAndDocuments/

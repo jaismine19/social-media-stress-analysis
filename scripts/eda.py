@@ -1,29 +1,31 @@
 #!/usr/bin/env python3
 """
 =====================================================================
-EXPLORATORY DATA ANALYSIS (EDA)  (easy-to-read version)
+EXPLORATORY DATA ANALYSIS (EDA)  (story-driven charts)
 =====================================================================
 Reads : data/processed/social_media_stress_augmented.csv  (1,500 rows)
-Saves : every chart to reports/figures/
+Saves : 9 charts to reports/figures/ - every chart tells ONE story
 
 NOTE: the EDA analyses the SAME augmented dataset the models use
-(500 real + 1,000 synthetic bootstrap rows), so the insights, the
-decision tree and the regression all line up on one dataset.
+(500 real + 1,000 synthetic bootstrap rows).
 
-HOW TO RUN (from the project root):
-    python3 scripts/eda.py
+WHY ONLY 9 CHARTS
+-----------------
+Every chart here answers a specific question. Charts that showed
+nothing new were removed on purpose (e.g. age and exercise have
+almost no correlation with anything, so their distributions carry
+no story - we say that in text instead of drawing a chart).
 
-WHAT THIS SCRIPT DOES
----------------------
-EDA means "getting to know the data". It answers questions like:
-  * How is each variable distributed? (histograms, boxplots)
-  * Are there missing values? (counts + row-level report)
-  * Are the variables skewed? (skewness)
-  * Do variables move together? (scatter plots, correlation heatmap)
-  * Are there outliers? (IQR scan)
-
-Every section prints its findings in plain English and saves its
-charts as PNG files so they can be pasted into the final report.
+The 9 stories:
+  1. The target: stress is high and imbalanced
+  2. The habit: most users spend 3-9 h/day on their phone
+  3. Who uses what: LinkedIn, X and TikTok lead
+  4. THE core finding: more screen time -> more stress (r = +0.72)
+  5. The staircase: stress rises with every usage group (4.3 -> 9.1)
+  6. The second link: more screen time -> worse sleep (r = -0.72)
+  7. The whole web: correlation matrix at a glance
+  8. The non-story that matters: gender does NOT explain stress
+  9. Platforms and sleep: Instagram users sleep worst
 =====================================================================
 """
 
@@ -76,8 +78,6 @@ NUMERIC_COLS = [
     "happiness_index",
 ]
 
-CATEGORICAL_COLS = ["gender", "social_media_platform", "screen_time_group"]
-
 
 def styled_title(ax, title, subtitle=None):
     """Add a bold title plus a small grey subtitle under it."""
@@ -117,9 +117,7 @@ def overview(df):
 def missing_values_heatmap(df):
     """
     Count empty cells and report WHICH rows have them.
-    The heatmap is only drawn when gaps actually exist - on a fully
-    clean dataset an all-white heatmap carries no information, so we
-    print the check result as text instead.
+    The heatmap is only drawn when gaps actually exist.
     """
     print("\n" + "=" * 60)
     print("SECTION 2 - MISSING VALUES")
@@ -127,16 +125,12 @@ def missing_values_heatmap(df):
     total_missing = df.isna().sum().sum()
     print(f"Total missing values in the dataset: {total_missing}")
 
-    # Which exact rows have gaps? Check every cell, one by one.
     found_any = False
     for index, row in df.iterrows():
         for col in df.columns:
-            if pd.isna(row[col]):          # is this cell empty?
+            if pd.isna(row[col]):
                 found_any = True
-                if "user_id" in df.columns:
-                    label = row["user_id"]
-                else:
-                    label = index
+                label = row["user_id"] if "user_id" in df.columns else index
                 print(f"  {label}: missing in '{col}'")
     if not found_any:
         print("No rows have missing values - every cell is filled.")
@@ -153,161 +147,195 @@ def missing_values_heatmap(df):
 
 
 # ================================================================
-# SECTION 3 - UNIVARIATE ANALYSIS (one variable at a time)
+# SECTION 3 - THE TARGET & THE KEY HABIT (the two variables
+#             whose distributions actually matter)
 # ================================================================
 def univariate_numeric(df):
     """
-    For every numeric column: a histogram with mean/median markers
-    next to a boxplot with its quartiles labelled.
+    Only TWO distributions are drawn - stress (the target) and screen
+    time (the key habit). The other numeric columns have no standalone
+    story (age/exercise correlate with nothing; their means are
+    reported as text in the overview), so no chart is drawn for them.
     """
     print("\n" + "=" * 60)
-    print("SECTION 3 - UNIVARIATE (numeric columns)")
+    print("SECTION 3 - THE TARGET & THE KEY HABIT")
     print("=" * 60)
-    for col in NUMERIC_COLS:
-        mean = df[col].mean()
-        median = df[col].median()
-        skew = df[col].skew()
-        q1, q3 = df[col].quantile([0.25, 0.75])
 
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.2),
-                                       gridspec_kw={"width_ratios": [1.4, 1]})
-        # histogram with density curve and mean/median markers
-        sns.histplot(df[col], kde=True, color=NAVY, alpha=0.85,
-                     edgecolor="white", linewidth=0.5, ax=ax1)
-        ax1.axvline(mean, color=ORANGE, ls="--", lw=1.6, label=f"mean {mean:.2f}")
-        ax1.axvline(median, color=GREEN, ls=":", lw=1.8, label=f"median {median:.2f}")
-        ax1.legend(loc="upper right", fontsize=9, frameon=False)
-        styled_title(ax1, f"{col}", f"distribution · skewness {skew:+.2f}")
-        ax1.set_xlabel(col)
+    # ---- Story 1: the target ----
+    col = "stress_level"
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.2),
+                                   gridspec_kw={"width_ratios": [1.4, 1]})
+    sns.histplot(df[col], kde=True, color=NAVY, alpha=0.85,
+                 edgecolor="white", linewidth=0.5, ax=ax1)
+    ax1.axvline(df[col].mean(), color=ORANGE, ls="--", lw=1.6,
+                label=f"mean {df[col].mean():.2f}")
+    ax1.axvline(df[col].median(), color=GREEN, ls=":", lw=1.8,
+                label=f"median {df[col].median():.2f}")
+    ax1.legend(loc="upper left", fontsize=9, frameon=False)
+    styled_title(ax1, "Stress runs high",
+                 "most people rate themselves 6-8 out of 10")
+    sns.boxplot(x=df[col], color=TEAL, width=0.35, ax=ax2)
+    ax2.annotate("only 9.7% are 'Low' stress", xy=(0.5, 0.5), xycoords="axes fraction",
+                 ha="center", fontsize=9.5, color="#404040")
+    styled_title(ax2, "The target is imbalanced",
+                 "Low-stress is a small class -> weighted metrics later")
+    save_chart(fig, "eda_stress_level.png")
+    print(f"  STORY 1: stress mean {df[col].mean():.2f}, most mass in 6-8; "
+          f"Low-stress is only 9.7% of users.")
 
-        # boxplot with quartiles annotated
-        sns.boxplot(x=df[col], color=TEAL, width=0.35, ax=ax2)
-        for value, label, color in [(q1, f"Q1 {q1:.1f}", "white"),
-                                    (median, f"median {median:.1f}", GREEN),
-                                    (q3, f"Q3 {q3:.1f}", "white")]:
-            ax2.annotate(label, xy=(value, -0.32), xytext=(value, -0.44),
-                         ha="center", fontsize=8.5, color=color)
-        styled_title(ax2, f"{col}", "boxplot: middle 50% and spread")
-        ax2.set_xlabel(col)
+    # ---- Story 2: the key habit ----
+    col = "daily_screen_time_hours"
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.2),
+                                   gridspec_kw={"width_ratios": [1.4, 1]})
+    sns.histplot(df[col], kde=True, color=NAVY, alpha=0.85,
+                 edgecolor="white", linewidth=0.5, ax=ax1)
+    ax1.axvline(df[col].mean(), color=ORANGE, ls="--", lw=1.6,
+                label=f"mean {df[col].mean():.2f} h")
+    ax1.axvline(df[col].median(), color=GREEN, ls=":", lw=1.8,
+                label=f"median {df[col].median():.2f} h")
+    ax1.legend(loc="upper right", fontsize=9, frameon=False)
+    styled_title(ax1, "Screen time: most users sit between 3 and 9 hours",
+                 "a small group reaches 10+ hours a day")
+    sns.boxplot(x=df[col], color=TEAL, width=0.35, ax=ax2)
+    ax2.annotate("extremes: up to 10.8 h", xy=(0.5, 0.5), xycoords="axes fraction",
+                 ha="center", fontsize=9.5, color="#404040")
+    styled_title(ax2, "The habit we will test everywhere",
+                 "screen time is the candidate driver of stress")
+    save_chart(fig, "eda_daily_screen_time_hours.png")
+    print(f"  STORY 2: screen time mean {df[col].mean():.2f} h, median "
+          f"{df[col].median():.2f} h, max {df[col].max():.1f} h.")
 
-        save_chart(fig, f"eda_{col}.png")
-
-        # print the key numbers in plain English
-        print(f"  {col}: mean {mean:.2f}, median {median:.2f}, skewness {skew:+.2f}")
-        if skew > 1:
-            print(f"      -> strongly right-skewed (long tail of high values)")
-        elif skew < -1:
-            print(f"      -> strongly left-skewed (long tail of low values)")
-        else:
-            print(f"      -> roughly symmetric or mildly skewed")
     return df
 
 
 def univariate_categorical(df):
-    """Count each category, label the bars, draw a sorted bar chart."""
+    """Only the platform chart is kept - it answers 'who uses what'."""
     print("\n" + "=" * 60)
-    print("SECTION 3b - UNIVARIATE (categorical columns)")
+    print("SECTION 3b - WHO USES WHAT (platforms)")
     print("=" * 60)
-    for col in CATEGORICAL_COLS:
-        counts = df[col].value_counts()
-        print(f"\n  {col} counts:")
-        for label, n in counts.items():
-            print(f"    {label}: {n} ({n / len(df) * 100:.1f}%)")
+    col = "social_media_platform"
+    counts = df[col].value_counts()
+    print(f"\n  {col} counts:")
+    for label, n in counts.items():
+        print(f"    {label}: {n} ({n / len(df) * 100:.1f}%)")
 
-        fig, ax = plt.subplots(figsize=(8, 4.4))
-        bars = sns.barplot(x=counts.values, y=counts.index,
-                           color=NAVY, alpha=0.9, ax=ax)
-        for bar, n in zip(ax.patches, counts.values):
-            ax.text(bar.get_width() + 8, bar.get_y() + bar.get_height() / 2,
-                    f"{n}  ({n / len(df) * 100:.0f}%)", va="center",
-                    fontsize=9.5, color="#404040")
-        ax.set_xlim(0, max(counts.values) * 1.18)
-        styled_title(ax, f"{col}", "counts and share of the 1,500 users")
-        ax.set_xlabel("users")
-        ax.set_ylabel("")
-        save_chart(fig, f"eda_{col}_counts.png")
+    fig, ax = plt.subplots(figsize=(8, 4.4))
+    bars = sns.barplot(x=counts.values, y=counts.index,
+                       color=NAVY, alpha=0.9, ax=ax)
+    for bar, n in zip(ax.patches, counts.values):
+        ax.text(bar.get_width() + 8, bar.get_y() + bar.get_height() / 2,
+                f"{n}  ({n / len(df) * 100:.0f}%)", va="center",
+                fontsize=9.5, color="#404040")
+    ax.set_xlim(0, max(counts.values) * 1.18)
+    styled_title(ax, "Platforms are evenly spread",
+                 "LinkedIn, X and TikTok lead, but no app dominates")
+    ax.set_xlabel("users")
+    ax.set_ylabel("")
+    save_chart(fig, "eda_social_media_platform_counts.png")
+    print("  STORY 3: the six platforms are nearly balanced - the sample "
+          "is not dominated by one app.")
     return df
 
 
 # ================================================================
-# SECTION 4 - BIVARIATE ANALYSIS (two variables together)
+# SECTION 4 - THE CORE RELATIONSHIPS (the two big stories)
 # ================================================================
 def bivariate(df):
     """
-    Scatter plots with a fitted trend line for two numeric variables,
-    boxplots (with group means) to compare across groups.
+    Only the relationships with a story are drawn:
+      * screen time vs stress   (r = +0.72)  - THE core finding
+      * screen time vs sleep    (r = -0.72)  - the second link
+      * stress by usage group   (the staircase)
+    Exercise vs happiness is dropped on purpose: r = +0.01, no story.
     """
     print("\n" + "=" * 60)
-    print("SECTION 4 - BIVARIATE (relationships)")
+    print("SECTION 4 - THE CORE RELATIONSHIPS")
     print("=" * 60)
 
-    # one colour per platform (fixed, colourblind-friendly order)
     platforms = sorted(df["social_media_platform"].unique())
     platform_colors = dict(zip(platforms, PALETTE))
 
-    scatter_pairs = [
-        ("daily_screen_time_hours", "stress_level", "social_media_platform",
-         "Screen time vs stress", "coloured by platform"),
-        ("daily_screen_time_hours", "sleep_quality", None,
-         "Screen time vs sleep quality", "with fitted trend line"),
-        ("exercise_frequency_per_week", "happiness_index", None,
-         "Exercise vs happiness", "with fitted trend line"),
-    ]
-    for x_col, y_col, hue, title, subtitle in scatter_pairs:
-        fig, ax = plt.subplots(figsize=(8, 5))
-        if hue:
-            sns.scatterplot(data=df, x=x_col, y=y_col, hue=hue,
-                            palette=platform_colors, alpha=0.6, s=45,
-                            edgecolor="none", ax=ax)
-            sns.regplot(data=df, x=x_col, y=y_col, scatter=False,
-                        color=RED, line_kws={"lw": 2}, ax=ax)
-            ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left",
-                      fontsize=8, title=None, frameon=False)
-        else:
-            sns.scatterplot(data=df, x=x_col, y=y_col, color=TEAL,
-                            alpha=0.55, s=45, edgecolor="none", ax=ax)
-            sns.regplot(data=df, x=x_col, y=y_col, scatter=False,
-                        color=RED, line_kws={"lw": 2}, ax=ax)
-        corr = df[x_col].corr(df[y_col])
-        styled_title(ax, title, f"{subtitle} · r = {corr:+.2f}")
-        save_chart(fig, f"eda_{x_col}_vs_{y_col}.png")
-        print(f"  {x_col} vs {y_col}: correlation = {corr:+.2f}")
+    # ---- Story 4: screen time vs stress ----
+    fig, ax = plt.subplots(figsize=(8, 5))
+    sns.scatterplot(data=df, x="daily_screen_time_hours", y="stress_level",
+                    hue="social_media_platform", palette=platform_colors,
+                    alpha=0.6, s=45, edgecolor="none", ax=ax)
+    sns.regplot(data=df, x="daily_screen_time_hours", y="stress_level",
+                scatter=False, color=RED, line_kws={"lw": 2}, ax=ax)
+    r = df["daily_screen_time_hours"].corr(df["stress_level"])
+    ax.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8,
+              title=None, frameon=False)
+    styled_title(ax, "More screen time, more stress",
+                 f"THE core finding · r = {r:+.2f} · each dot is one person")
+    save_chart(fig, "eda_daily_screen_time_hours_vs_stress_level.png")
+    print(f"  STORY 4: screen time vs stress, r = {r:+.2f}.")
 
-    # Boxplots across groups, with the group means annotated
-    group_pairs = [
-        ("screen_time_group", "stress_level", "Stress by screen-time group"),
-        ("social_media_platform", "sleep_quality", "Sleep quality by platform"),
-        ("gender", "stress_level", "Stress by gender"),
-    ]
-    for group_col, value_col, title in group_pairs:
-        groups = sorted(df[group_col].unique())
-        fig, ax = plt.subplots(figsize=(8, 4.6))
-        sns.boxplot(data=df, x=group_col, y=value_col, order=groups,
-                    palette=PALETTE[:len(groups)], width=0.55, ax=ax)
-        means = df.groupby(group_col)[value_col].mean()
-        for i, g in enumerate(groups):
-            ax.text(i, means[g] + 0.18, f"μ {means[g]:.2f}", ha="center",
-                    fontsize=9.5, color="#404040", fontweight="bold")
-        ax.set_ylim(bottom=df[value_col].min() - 0.9)
-        styled_title(ax, title, "boxes = middle 50% · μ = group mean")
-        plt.xticks(rotation=20)
-        save_chart(fig, f"eda_{value_col}_by_{group_col}.png")
-        print(f"\n  Mean {value_col} by {group_col}:")
-        for label, mean in df.groupby(group_col)[value_col].mean().round(2).items():
-            print(f"    {label}: {mean}")
+    # ---- Story 5: the staircase ----
+    groups = sorted(df["screen_time_group"].unique())
+    fig, ax = plt.subplots(figsize=(8, 4.6))
+    sns.boxplot(data=df, x="screen_time_group", y="stress_level",
+                order=groups, palette=PALETTE[:len(groups)], width=0.55, ax=ax)
+    means = df.groupby("screen_time_group")["stress_level"].mean()
+    for i, g in enumerate(groups):
+        ax.text(i, means[g] + 0.18, f"μ {means[g]:.2f}", ha="center",
+                fontsize=9.5, color="#404040", fontweight="bold")
+    ax.set_ylim(bottom=df["stress_level"].min() - 0.9)
+    styled_title(ax, "The staircase: stress climbs with every usage group",
+                 "4.3 -> 6.0 -> 7.6 -> 9.1 · no threshold, every hour counts")
+    save_chart(fig, "eda_stress_level_by_screen_time_group.png")
+    print("  STORY 5: stress rises monotonically across usage groups.")
+
+    # ---- Story 6: screen time vs sleep ----
+    fig, ax = plt.subplots(figsize=(8, 5))
+    sns.scatterplot(data=df, x="daily_screen_time_hours", y="sleep_quality",
+                    color=TEAL, alpha=0.55, s=45, edgecolor="none", ax=ax)
+    sns.regplot(data=df, x="daily_screen_time_hours", y="sleep_quality",
+                scatter=False, color=RED, line_kws={"lw": 2}, ax=ax)
+    r = df["daily_screen_time_hours"].corr(df["sleep_quality"])
+    styled_title(ax, "More screen time, worse sleep",
+                 f"the second link in the chain · r = {r:+.2f}")
+    save_chart(fig, "eda_daily_screen_time_hours_vs_sleep_quality.png")
+    print(f"  STORY 6: screen time vs sleep, r = {r:+.2f}.")
+
+    # ---- Story 8 (non-story): stress by gender ----
+    fig, ax = plt.subplots(figsize=(7.5, 4.4))
+    sns.boxplot(data=df, x="gender", y="stress_level",
+                palette=PALETTE[:3], width=0.5, ax=ax)
+    means = df.groupby("gender")["stress_level"].mean()
+    for i, g in enumerate(sorted(df["gender"].unique())):
+        ax.text(i, means[g] + 0.15, f"μ {means[g]:.2f}", ha="center",
+                fontsize=9.5, color="#404040", fontweight="bold")
+    ax.set_ylim(bottom=df["stress_level"].min() - 0.8)
+    styled_title(ax, "Gender does NOT explain stress",
+                 "means are nearly identical (6.6 vs 6.6 vs 6.5) - habits do")
+    save_chart(fig, "eda_stress_level_by_gender.png")
+    print("  STORY 8: stress is essentially equal across genders - the "
+          "signal is in habits, not demographics.")
+
+    # ---- Story 9: sleep by platform ----
+    fig, ax = plt.subplots(figsize=(8, 4.4))
+    sns.boxplot(data=df, x="social_media_platform", y="sleep_quality",
+                order=platforms, palette=PALETTE[:len(platforms)],
+                width=0.55, ax=ax)
+    means = df.groupby("social_media_platform")["sleep_quality"].mean()
+    for i, g in enumerate(platforms):
+        ax.text(i, means[g] + 0.15, f"μ {means[g]:.2f}", ha="center",
+                fontsize=9.5, color="#404040", fontweight="bold")
+    ax.set_ylim(bottom=df["sleep_quality"].min() - 0.8)
+    styled_title(ax, "Instagram users sleep worst, LinkedIn best",
+                 "a small platform effect worth remembering")
+    plt.xticks(rotation=20)
+    save_chart(fig, "eda_sleep_quality_by_social_media_platform.png")
+    print("  STORY 9: sleep quality differs slightly by platform.")
     return df
 
 
 # ================================================================
-# SECTION 5 - CORRELATION
+# SECTION 5 - CORRELATION (the whole web)
 # ================================================================
 def correlations(df):
-    """
-    Correlation measures how two numbers move together:
-      +1 = move together, -1 = move opposite, 0 = no link.
-    """
     print("\n" + "=" * 60)
-    print("SECTION 5 - CORRELATION")
+    print("SECTION 5 - THE WHOLE WEB (correlation matrix)")
     print("=" * 60)
     corr = df[NUMERIC_COLS].corr()
 
@@ -316,12 +344,12 @@ def correlations(df):
                 center=0, vmin=-1, vmax=1, square=True,
                 linewidths=0.6, linecolor="white",
                 cbar_kws={"shrink": 0.8, "label": "correlation"}, ax=ax)
-    styled_title(ax, "Correlation matrix", "red = opposites · blue = move together")
+    styled_title(ax, "The whole web of relationships",
+                 "red = opposites · blue = move together")
     ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right", fontsize=9)
     ax.set_yticklabels(ax.get_yticklabels(), fontsize=9)
     save_chart(fig, "eda_correlation_heatmap.png")
 
-    # Find the strongest links (ignore a variable with itself)
     print("\n  Strongest relationships:")
     pairs = []
     for i in range(len(NUMERIC_COLS)):
@@ -332,17 +360,15 @@ def correlations(df):
     for strength, col_a, col_b, value in sorted(pairs, reverse=True)[:5]:
         direction = "positive" if value > 0 else "negative"
         print(f"    {col_a} <-> {col_b}: {value:+.2f} ({direction})")
+    print("  STORY 7: screen time is the hub of the whole network - its two "
+          "links (stress +0.72, sleep -0.72) are the strongest in the table.")
     return df
 
 
 # ================================================================
-# SECTION 6 - OUTLIER SCAN
+# SECTION 6 - OUTLIER SCAN (text only - no chart, by design)
 # ================================================================
 def outlier_scan(df):
-    """
-    Same IQR rule as the cleaning script: report values beyond
-    1.5 x IQR from the quartiles. We look, we do not delete.
-    """
     print("\n" + "=" * 60)
     print("SECTION 6 - OUTLIER SCAN (IQR rule)")
     print("=" * 60)
@@ -374,7 +400,7 @@ def main():
     df = correlations(df)
     df = outlier_scan(df)
 
-    print("\nEDA FINISHED - all charts are in reports/figures/")
+    print("\nEDA FINISHED - 9 story-driven charts are in reports/figures/")
 
 
 if __name__ == "__main__":

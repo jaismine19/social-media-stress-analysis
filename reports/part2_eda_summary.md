@@ -2,7 +2,7 @@
 
 **Tool:** Python (pandas, matplotlib, seaborn) — script at `scripts/eda.py`
 **Data:** `data/processed/social_media_stress_augmented.csv` (1,500 rows: 500 real + 1,000 synthetic)
-**Charts:** `reports/figures/eda_*.png` (17 charts)
+**Charts:** `reports/figures/eda_*.png` (9 story-driven charts — every chart answers one question)
 
 ---
 

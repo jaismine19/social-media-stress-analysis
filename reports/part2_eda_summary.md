@@ -2,7 +2,7 @@
 
 **Tool:** Python (pandas, matplotlib, seaborn) — script at `scripts/eda.py`
 **Data:** `data/processed/social_media_stress_clean.csv` (500 rows × 11 columns)
-**Charts:** `reports/figures/eda_*.png` (18 charts)
+**Charts:** `reports/figures/eda_*.png` (17 charts)
 
 ---
 

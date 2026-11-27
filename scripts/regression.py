@@ -29,7 +29,7 @@ This script:
   * scores it with RMSE and R-squared on the unseen test set
   * checks stability with 5-fold cross-validation
   * refits a plain-units model so the coefficients are readable
-    ("+0.63 stress points per extra hour of screen time")
+    ("+0.64 stress points per extra hour of screen time")
 
 IMPORTANT DESIGN CHOICES
 ------------------------

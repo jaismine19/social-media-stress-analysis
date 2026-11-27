@@ -4,7 +4,7 @@
 DECISION TREE CLASSIFICATION  (easy-to-read version)
 =====================================================================
 Task    : classify each user's stress as Low / Moderate / High
-Reads   : data/processed/social_media_stress_clean.csv
+Reads   : data/processed/social_media_stress_augmented.csv
 Outputs : charts + result tables in reports/
 
 HOW TO RUN (from the project root):
@@ -52,7 +52,6 @@ from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
 # File locations
 # ---------------------------------------------------------------
 PROJECT = Path(__file__).resolve().parent.parent
-CLEAN_FILE = PROJECT / "data" / "processed" / "social_media_stress_clean.csv"
 AUG_FILE = PROJECT / "data" / "processed" / "social_media_stress_augmented.csv"
 REPORT_DIR = PROJECT / "reports"
 FIG_DIR = REPORT_DIR / "figures"

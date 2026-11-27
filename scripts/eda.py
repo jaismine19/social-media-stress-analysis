@@ -3,8 +3,12 @@
 =====================================================================
 EXPLORATORY DATA ANALYSIS (EDA)  (easy-to-read version)
 =====================================================================
-Reads : data/processed/social_media_stress_clean.csv
+Reads : data/processed/social_media_stress_clean.csv  (the original 500 REAL records)
 Saves : every chart to reports/figures/
+
+NOTE: EDA analyses the real 500 records on purpose. The models
+(decision_tree.py, regression.py) use the augmented 1,500-row file;
+exploring the real answers keeps the insights anchored in reality.
 
 HOW TO RUN (from the project root):
     python3 scripts/eda.py
@@ -13,8 +17,8 @@ WHAT THIS SCRIPT DOES
 ---------------------
 EDA means "getting to know the data". It answers questions like:
   * How is each variable distributed? (histograms, boxplots)
-  * Are there missing values? (heatmap)
-  * Are the variables skewed? (skewness / kurtosis)
+  * Are there missing values? (counts + row-level report)
+  * Are the variables skewed? (skewness)
   * Do variables move together? (scatter plots, correlation heatmap)
   * Are there outliers? (IQR scan)
 
@@ -84,8 +88,10 @@ def overview(df):
 # ================================================================
 def missing_values_heatmap(df):
     """
-    Draw a heatmap where each cell is one value: white = present,
-    coloured = missing. On live data this shows WHERE the gaps are.
+    Count empty cells and report WHICH rows have them.
+    The heatmap is only drawn when gaps actually exist - on a fully
+    clean dataset an all-white heatmap carries no information, so we
+    print the check result as text instead.
     """
     print("\n" + "=" * 60)
     print("SECTION 2 - MISSING VALUES")
@@ -107,10 +113,13 @@ def missing_values_heatmap(df):
     if not found_any:
         print("No rows have missing values - every cell is filled.")
 
-    fig, ax = plt.subplots(figsize=(10, 3))
-    sns.heatmap(df.isna(), cbar=False, yticklabels=False, ax=ax)
-    ax.set_title("Missing values heatmap (white = present, coloured = missing)")
-    save_chart(fig, "eda_missing_values.png")
+    if total_missing > 0:
+        fig, ax = plt.subplots(figsize=(10, 3))
+        sns.heatmap(df.isna(), cbar=False, yticklabels=False, ax=ax)
+        ax.set_title("Missing values heatmap (white = present, coloured = missing)")
+        save_chart(fig, "eda_missing_values.png")
+    else:
+        print("(heatmap skipped - nothing to show on a clean dataset)")
     return df
 
 

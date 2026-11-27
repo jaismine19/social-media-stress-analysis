@@ -48,6 +48,6 @@ The project uses exactly two models (per instructor): a decision tree and a sing
 
 ## Honesty notes
 
-1. Synthetic rows contain **no new information about real people** — they mirror the distributions of the original 500 responses. All EDA conclusions remain anchored on the real data.
+1. Synthetic rows contain **no new information about real people** — they mirror the distributions of the original 500 responses. The EDA now runs on the augmented set too (per instructor request); its key findings are essentially unchanged (screen–stress +0.72 vs +0.74 on the real 500), because the bootstrap preserved the relationships.
 2. Because synthetic rows are near-copies of real rows, the train/test split contains near-duplicate "twins", so scores on the augmented set are **somewhat optimistic**. Both datasets' results are reported above for transparency.
-3. The original cleaned file is unchanged and remains the reference dataset for EDA and data documentation.
+3. The original cleaned file is unchanged and remains the reference dataset for data documentation.

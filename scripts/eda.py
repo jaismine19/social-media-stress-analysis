@@ -3,12 +3,12 @@
 =====================================================================
 EXPLORATORY DATA ANALYSIS (EDA)  (easy-to-read version)
 =====================================================================
-Reads : data/processed/social_media_stress_clean.csv  (the original 500 REAL records)
+Reads : data/processed/social_media_stress_augmented.csv  (1,500 rows)
 Saves : every chart to reports/figures/
 
-NOTE: EDA analyses the real 500 records on purpose. The models
-(decision_tree.py, regression.py) use the augmented 1,500-row file;
-exploring the real answers keeps the insights anchored in reality.
+NOTE: the EDA now analyses the SAME augmented dataset the models
+use (500 real + 1,000 synthetic bootstrap rows), so the insights,
+the decision tree and the regression all line up on one dataset.
 
 HOW TO RUN (from the project root):
     python3 scripts/eda.py
@@ -41,7 +41,7 @@ import seaborn as sns
 # File locations
 # ---------------------------------------------------------------
 PROJECT = Path(__file__).resolve().parent.parent
-CLEAN_FILE = PROJECT / "data" / "processed" / "social_media_stress_clean.csv"
+AUG_FILE = PROJECT / "data" / "processed" / "social_media_stress_augmented.csv"
 FIG_DIR = PROJECT / "reports" / "figures"
 
 sns.set_theme(style="whitegrid")  # nicer chart style
@@ -284,7 +284,7 @@ def outlier_scan(df):
 # ================================================================
 def main():
     print("STARTING THE EDA")
-    df = pd.read_csv(CLEAN_FILE)
+    df = pd.read_csv(AUG_FILE)
     print(f"Loaded {df.shape[0]} rows x {df.shape[1]} columns from the cleaned file.\n")
 
     df = overview(df)
